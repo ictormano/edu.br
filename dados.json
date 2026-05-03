@@ -1,4 +1,296 @@
-[
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscador BNCC - Ensino Fundamental I</title>
+<style>
+:root {
+  --google-blue: #4285f4;
+  --google-red: #ea4335;
+  --google-yellow: #fbbc05;
+  --google-green: #34a853;
+  --text-main: #202124;
+  --text-muted: #5f6368;
+  --border: #dfe1e5;
+  --shadow: 0 1px 6px rgba(32,33,36,.28);
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text-main);
+}
+
+.container {
+  margin-top: 12vh;
+  width: 100%;
+  max-width: 650px;
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  font-size: 4.5rem;
+  font-weight: 500;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.logo span:nth-child(1) { color: var(--google-blue); }
+.logo span:nth-child(2) { color: var(--google-red); }
+.logo span:nth-child(3) { color: var(--google-yellow); }
+.logo span:nth-child(4) { color: var(--google-blue); }
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 0 16px;
+  transition: box-shadow 0.2s, border-color 0.2s, border-radius 0.2s;
+  position: relative;
+  z-index: 101;
+}
+
+.search-box.active {
+  box-shadow: var(--shadow);
+  border-color: transparent;
+  border-radius: 24px 24px 0 0;
+}
+
+.search-box:hover:not(.active) {
+  box-shadow: var(--shadow);
+  border-color: transparent;
+}
+
+.icon {
+  fill: var(--text-muted);
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.input-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: var(--text-main);
+  background: transparent;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
+.input-field::placeholder {
+  color: var(--text-muted);
+  font-family: -apple-system, sans-serif;
+  text-transform: none;
+}
+
+.ghost-text {
+  position: absolute;
+  left: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: transparent;
+  white-space: pre;
+}
+.ghost-text span { color: #bdc1c6; }
+
+.clear-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  padding: 4px;
+  border-radius: 50%;
+  fill: var(--text-muted);
+}
+.clear-btn.show { display: block; }
+.clear-btn:hover { background: #f1f3f4; }
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 6px rgba(32,33,36,.28);
+  border: 1px solid transparent;
+  border-top: 1px solid var(--border);
+  padding: 8px 0 16px 0;
+  display: none;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 8px 16px 8px 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+.dropdown-item:hover, .dropdown-item.focused {
+  background-color: #f1f3f4;
+}
+.dd-code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: var(--google-blue);
+  width: 90px;
+  flex-shrink: 0;
+}
+.dd-desc {
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-area {
+  margin-top: 24px;
+  text-align: left;
+  transition: opacity 0.2s;
+  display: none;
+}
+
+.result-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.result-card.faded {
+  opacity: 0.5;
+}
+
+.rc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.rc-code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--text-main);
+}
+
+.rc-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.tag {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+.tag-disc { background: #e8f0fe; color: #1967d2; border-color: transparent; }
+.tag-ano { background: #fce8e6; color: #c5221f; border-color: transparent; }
+
+.rc-label {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.rc-obj {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3c4043;
+  line-height: 1.4;
+}
+
+.rc-hab {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5f6368;
+  line-height: 1.5;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">
+    <span>B</span><span>N</span><span>C</span><span>C</span>
+  </div>
+
+  <div class="search-wrapper">
+    <div class="search-box" id="searchBox">
+      <svg class="icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+      </svg>
+      
+      <div class="ghost-text" id="ghostText"></div>
+      <input type="text" class="input-field" id="searchInput" placeholder="Pesquise o código (ex: EF03MA05)" autocomplete="off" spellcheck="false">
+      
+      <button class="clear-btn" id="clearBtn" aria-label="Limpar">
+        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="dropdown" id="dropdown"></div>
+  </div>
+
+  <div class="result-area" id="resultArea">
+    <div class="result-card" id="resultCard">
+      <div class="rc-header">
+        <div class="rc-code" id="rcCode"></div>
+      </div>
+      <div class="rc-tags" id="rcTags"></div>
+      
+      <div class="rc-label" style="margin-top: 0;">Assunto / Objeto de Conhecimento</div>
+      <div class="rc-obj" id="rcObj"></div>
+
+      <div class="rc-label">Habilidade</div>
+      <div class="rc-hab" id="rcHab"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// JSON incorporado diretamente para evitar erros de leitura de arquivo local (CORS)
+const DATA = [
   {
     "code": "EF15LP01",
     "disc": "Língua Portuguesa",
@@ -1293,7 +1585,7 @@
     "ano": "4º ano",
     "obj": "Produção de textos",
     "campo": "Escrita colaborativa",
-    "hab": "Planejar e produzir, com autonomia, cartas pessoais de reclamação, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e com a estrutura própria desses textos (problema, opinião, argumentos), considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+    "hab": "Planejar e produzir, com autonomia, cartas pessoais de reclamação, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e com a structure própria desses textos (problema, opinião, argumentos), considerando a situação comunicativa e o tema/assunto/finalidade do texto."
   },
   {
     "code": "EF04LP12",
@@ -1461,7 +1753,7 @@
     "ano": "5º ano",
     "obj": "Análise linguística/semiótica",
     "campo": "Morfologia/Morfossintaxe",
-    "hab": "Identificar a expressão de presente, passado e futuro em tempos verbais do modo indicativo."
+    "hab": "Identificar a expression de presente, passado e futuro em tempos verbais do modo indicativo."
   },
   {
     "code": "EF05LP06",
@@ -1741,7 +2033,7 @@
     "ano": "1º ao 5º ano",
     "obj": "Oralidade",
     "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
-    "hab": "Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."
+    "hab": "Atribuir significado a aspects não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."
   },
   {
     "code": "EF15LP13",
@@ -3508,7 +3800,7 @@
     "disc": "Geografia",
     "ano": "4º ano",
     "obj": "Formas de representação e pensamento espacial",
-    "campo": "Sistema de orientação",
+    "campo": "Sistema de orientation",
     "hab": "Utilizar as direções cardeais na localização de componentes físicos e humanos nas paisagens rurais e urbanas."
   },
   {
@@ -3925,7 +4217,7 @@
     "ano": "5º ano",
     "obj": "Matéria e energia",
     "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
-    "hab": "Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."
+    "hab": "Selecionar argumentos que justify a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."
   },
   {
     "code": "EF05CI04",
@@ -4215,7 +4507,7 @@
     "campo": "Arte e tecnologia",
     "hab": "Explorar diferentes tecnologias e recursos digitais (multimeios, animações, jogos eletrônicos, gravações em áudio e vídeo, fotografia, softwares etc.) nos processos de criação artística."
   },
-{
+  {
     "code": "EF12EF01",
     "disc": "Educação Física",
     "ano": "1º e 2º anos",
@@ -4349,7 +4641,7 @@
     "ano": "3º ao 5º ano",
     "obj": "Esportes",
     "campo": "Esportes de campo e taco / Esportes de rede/parede / Esportes de invasão",
-    "hab": "Experimentar e fruir diversos tipos de esportes de campo e taco, rede/parede e invasão, identificando seus elementos comuns e criando estratégias individuais e coletivas básicas para sua execução, prezando pelo trabalho coletivo e pelo protagonismo."
+    "hab": "Experimentar e fruir diversos tipos de esportes de campo e taco, rede/parede e invasão, identificando seus elementos comuns e criando estratégias individuais e coletivas básicas para sua execution, prezando pelo trabalho coletivo e pelo protagonismo."
   },
   {
     "code": "EF35EF06",
@@ -4431,7 +4723,7 @@
     "campo": "Lutas do contexto comunitário e regional / Lutas de matriz indígena e africana",
     "hab": "Identificar as características das lutas do contexto comunitário e regional e lutas de matriz indígena e africana, reconhecendo as diferenças entre lutas e brigas e entre lutas e as demais práticas corporais."
   },
-{
+  {
     "code": "EF01ER01",
     "disc": "Ensino Religioso",
     "ano": "1º ano",
