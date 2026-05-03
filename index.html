@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscador BNCC - Ensino Fundamental I</title>
+<style>
+:root {
+  --google-blue: #4285f4;
+  --google-red: #ea4335;
+  --google-yellow: #fbbc05;
+  --google-green: #34a853;
+  --text-main: #202124;
+  --text-muted: #5f6368;
+  --border: #dfe1e5;
+  --shadow: 0 1px 6px rgba(32,33,36,.28);
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text-main);
+}
+
+.container {
+  margin-top: 12vh;
+  width: 100%;
+  max-width: 650px;
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  font-size: 4.5rem;
+  font-weight: 500;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.logo span:nth-child(1) { color: var(--google-blue); }
+.logo span:nth-child(2) { color: var(--google-red); }
+.logo span:nth-child(3) { color: var(--google-yellow); }
+.logo span:nth-child(4) { color: var(--google-blue); }
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 0 16px;
+  transition: box-shadow 0.2s, border-color 0.2s, border-radius 0.2s;
+  position: relative;
+  z-index: 101;
+}
+
+.search-box.active {
+  box-shadow: var(--shadow);
+  border-color: transparent;
+  border-radius: 24px 24px 0 0;
+}
+
+.search-box:hover:not(.active) {
+  box-shadow: var(--shadow);
+  border-color: transparent;
+}
+
+.icon {
+  fill: var(--text-muted);
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.input-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: var(--text-main);
+  background: transparent;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
+.input-field::placeholder {
+  color: var(--text-muted);
+  font-family: -apple-system, sans-serif;
+  text-transform: none;
+}
+
+.ghost-text {
+  position: absolute;
+  left: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: transparent;
+  white-space: pre;
+}
+.ghost-text span { color: #bdc1c6; }
+
+.clear-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  padding: 4px;
+  border-radius: 50%;
+  fill: var(--text-muted);
+}
+.clear-btn.show { display: block; }
+.clear-btn:hover { background: #f1f3f4; }
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 6px rgba(32,33,36,.28);
+  border: 1px solid transparent;
+  border-top: 1px solid var(--border);
+  padding: 8px 0 16px 0;
+  display: none;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 8px 16px 8px 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+.dropdown-item:hover, .dropdown-item.focused {
+  background-color: #f1f3f4;
+}
+.dd-code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: var(--google-blue);
+  width: 90px;
+  flex-shrink: 0;
+}
+.dd-desc {
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-area {
+  margin-top: 24px;
+  text-align: left;
+  transition: opacity 0.2s;
+  display: none;
+}
+
+.result-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.result-card.faded {
+  opacity: 0.5;
+}
+
+.rc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.rc-code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--text-main);
+}
+
+.rc-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.tag {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+.tag-disc { background: #e8f0fe; color: #1967d2; border-color: transparent; }
+.tag-ano { background: #fce8e6; color: #c5221f; border-color: transparent; }
+
+.rc-label {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.rc-obj {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3c4043;
+  line-height: 1.4;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">
+    <span>B</span><span>N</span><span>C</span><span>C</span>
+  </div>
+
+  <div class="search-wrapper">
+    <div class="search-box" id="searchBox">
+      <svg class="icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+      </svg>
+      
+      <div class="ghost-text" id="ghostText"></div>
+      <input type="text" class="input-field" id="searchInput" placeholder="Carregando base de dados..." autocomplete="off" spellcheck="false" disabled>
+      
+      <button class="clear-btn" id="clearBtn" aria-label="Limpar">
+        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="dropdown" id="dropdown"></div>
+  </div>
+
+  <div class="result-area" id="resultArea">
+    <div class="result-card" id="resultCard">
+      <div class="rc-header">
+        <div class="rc-code" id="rcCode"></div>
+      </div>
+      <div class="rc-tags" id="rcTags"></div>
+      
+      <!-- Alterado para focar apenas no Assunto/Objeto -->
+      <div class="rc-label">Assunto / Objeto de Conhecimento</div>
+      <div class="rc-obj" id="rcObj"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let DATA = [];
+
+const input = document.getElementById('searchInput');
+const dropdown = document.getElementById('dropdown');
+const clearBtn = document.getElementById('clearBtn');
+const ghostText = document.getElementById('ghostText');
+const searchBox = document.getElementById('searchBox');
+
+const resultArea = document.getElementById('resultArea');
+const resultCard = document.getElementById('resultCard');
+const rcCode = document.getElementById('rcCode');
+const rcObj = document.getElementById('rcObj');
+const rcTags = document.getElementById('rcTags');
+
+// Buscar dados do arquivo JSON auxiliar
+fetch('dados.json')
+  .then(response => response.json())
+  .then(data => {
+    DATA = data;
+    input.disabled = false;
+    input.placeholder = "Pesquise o código (ex: EF03MA05)";
+  })
+  .catch(error => {
+    console.error('Erro ao carregar os dados:', error);
+    input.placeholder = "Erro ao carregar os dados.";
+  });
+
+let filtered = [];
+let currentIndex = -1;
+
+function norm(s) {
+  return s.toUpperCase().replace(/\s/g, '');
+}
+
+function getMatches(val) {
+  if (!val) return [];
+  const n = norm(val);
+  return DATA.filter(d => norm(d.code).startsWith(n)).slice(0, 6);
+}
+
+function updateGhost(val) {
+  if (!val) {
+    ghostText.innerHTML = '';
+    return;
+  }
+  const match = DATA.find(d => norm(d.code).startsWith(norm(val)));
+  if (match && norm(match.code) !== norm(val)) {
+    const typedLength = val.length;
+    const remaining = match.code.substring(typedLength);
+    ghostText.innerHTML = `<span style="color:transparent">${val}</span><span>${remaining}</span>`;
+  } else {
+    ghostText.innerHTML = '';
+  }
+}
+
+function getSubjectColor(disc) {
+  const map = {
+    'Língua Portuguesa': { bg: '#e8f0fe', color: '#1967d2' },
+    'Matemática': { bg: '#e6f4ea', color: '#1e8e3e' },
+    'Arte': { bg: '#fce8e6', color: '#c5221f' },
+    'Educação Física': { bg: '#fef7e0', color: '#e37400' },
+    'Ciências': { bg: '#e4f7fb', color: '#00838f' },
+    'Geografia': { bg: '#f3e8fd', color: '#12b5cb' },
+    'História': { bg: '#fce4ec', color: '#9334e6' },
+    'Ensino Religioso': { bg: '#f1f3f4', color: '#5f6368' }
+  };
+  return map[disc] || { bg: '#f1f3f4', color: '#5f6368' };
+}
+
+function showResult(item, isExact = false) {
+  resultArea.style.display = 'block';
+  
+  if (isExact) {
+    resultCard.classList.remove('faded');
+  } else {
+    resultCard.classList.add('faded');
+  }
+
+  rcCode.textContent = item.code;
+  
+  // Exibimos o assunto principal (que mapeia para a chave "obj" ou "campo")
+  rcObj.textContent = item.obj; 
+  
+  const colorObj = getSubjectColor(item.disc);
+  rcTags.innerHTML = `
+    <span class="tag tag-disc" style="background:${colorObj.bg}; color:${colorObj.color}">${item.disc}</span>
+    <span class="tag tag-ano">${item.ano}</span>
+    <span class="tag">${item.campo}</span>
+  `;
+}
+
+function renderDropdown(val) {
+  filtered = getMatches(val);
+  currentIndex = -1;
+  
+  if (!filtered.length || !val) {
+    dropdown.style.display = 'none';
+    searchBox.classList.remove('active');
+    return;
+  }
+  
+  searchBox.classList.add('active');
+  dropdown.style.display = 'block';
+  
+  dropdown.innerHTML = filtered.map((d, i) => `
+    <div class="dropdown-item" data-index="${i}">
+      <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="margin-right:12px; fill:var(--text-muted);">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+      </svg>
+      <span class="dd-code">${d.code}</span>
+      <span class="dd-desc">${d.obj}</span>
+    </div>
+  `).join('');
+  
+  dropdown.querySelectorAll('.dropdown-item').forEach(el => {
+    el.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      selectItem(Number(el.dataset.index));
+    });
+  });
+}
+
+function selectItem(index) {
+  const item = filtered[index];
+  input.value = item.code;
+  dropdown.style.display = 'none';
+  searchBox.classList.remove('active');
+  ghostText.innerHTML = '';
+  clearBtn.classList.add('show');
+  showResult(item, true);
+}
+
+input.addEventListener('input', () => {
+  const val = input.value.trim();
+  clearBtn.classList.toggle('show', !!val);
+  
+  updateGhost(val);
+  renderDropdown(val);
+  
+  const exactMatch = DATA.find(d => norm(d.code) === norm(val));
+  if (exactMatch) {
+    showResult(exactMatch, true);
+  } else if (filtered.length > 0) {
+    showResult(filtered[0], false); 
+  } else {
+    resultArea.style.display = 'none';
+  }
+});
+
+input.addEventListener('keydown', e => {
+  if (!filtered.length) return;
+  const items = dropdown.querySelectorAll('.dropdown-item');
+  
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    currentIndex = Math.min(currentIndex + 1, filtered.length - 1);
+    items.forEach((el, i) => el.classList.toggle('focused', i === currentIndex));
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    currentIndex = Math.max(currentIndex - 1, 0);
+    items.forEach((el, i) => el.classList.toggle('focused', i === currentIndex));
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (currentIndex >= 0) selectItem(currentIndex);
+    else selectItem(0);
+  } else if (e.key === 'Tab' && filtered.length > 0) {
+    e.preventDefault();
+    input.value = filtered[0].code;
+    updateGhost(input.value);
+    renderDropdown(input.value);
+    showResult(filtered[0], true);
+  }
+});
+
+input.addEventListener('blur', () => {
+  setTimeout(() => {
+    dropdown.style.display = 'none';
+    searchBox.classList.remove('active');
+  }, 150);
+});
+
+input.addEventListener('focus', () => {
+  if (input.value.trim() && filtered.length > 0) {
+    searchBox.classList.add('active');
+    dropdown.style.display = 'block';
+  }
+});
+
+clearBtn.addEventListener('click', () => {
+  input.value = '';
+  clearBtn.classList.remove('show');
+  ghostText.innerHTML = '';
+  dropdown.style.display = 'none';
+  searchBox.classList.remove('active');
+  resultArea.style.display = 'none';
+  input.focus();
+});
+</script>
+</body>
+</html>

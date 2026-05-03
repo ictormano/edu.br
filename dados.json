@@ -1,0 +1,514 @@
+[
+  {
+    "code": "EF15LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Reconstrução das condições de produção e recepção de textos",
+    "hab": "Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam."
+  },
+  {
+    "code": "EF15LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Estratégia de leitura",
+    "hab": "Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas."
+  },
+  {
+    "code": "EF15LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Estratégia de leitura",
+    "hab": "Localizar informações explícitas em textos."
+  },
+  {
+    "code": "EF15LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Estratégia de leitura",
+    "hab": "Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos."
+  },
+  {
+    "code": "EF15LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Leitura de imagens em narrativas visuais",
+    "hab": "Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias)."
+  },
+  {
+    "code": "EF15LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Formação do leitor literário",
+    "hab": "Reconhecer que os textos literários fazem parte do mundo do imaginário e apresentam uma dimensão lúdica, de encantamento, valorizando-os, em sua diversidade cultural, como patrimônio artístico da humanidade."
+  },
+  {
+    "code": "EF15LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Leitura colaborativa e autônoma",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor e, mais tarde, de maneira autônoma, textos narrativos de maior porte como contos (populares, de fadas, acumulativos, de assombração etc.) e crônicas."
+  },
+  {
+    "code": "EF15LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Apreciação estética/Estilo",
+    "hab": "Apreciar poemas visuais e concretos, observando efeitos de sentido criados pelo formato do texto na página, distribuição e diagramação das letras, pelas ilustrações e por outros efeitos visuais."
+  },
+  {
+    "code": "EF15LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Formação do leitor literário/Leitura multissemiótica",
+    "hab": "Relacionar texto com ilustrações e outros recursos gráficos."
+  },
+  {
+    "code": "EF15LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Produção de textos (escrita compartilhada e autônoma)",
+    "obj": "Planejamento de texto",
+    "hab": "Planejar, com a ajuda do professor, o texto que será produzido, considerando a situação comunicativa, os interlocutores (quem escreve/para quem escreve); a finalidade ou o propósito (escrever para quê); a circulação (onde o texto vai circular); o suporte (qual é o portador do texto); a linguagem, organização e forma do texto e seu tema, pesquisando em meios impressos ou digitais, sempre que for preciso, informações necessárias à produção do texto, organizando em tópicos os dados e as fontes pesquisadas."
+  },
+  {
+    "code": "EF15LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Produção de textos (escrita compartilhada e autônoma)",
+    "obj": "Revisão de textos",
+    "hab": "Reler e revisar o texto produzido com a ajuda do professor e a colaboração dos colegas, para corrigi-lo e aprimorá-lo, fazendo cortes, acréscimos, reformulações, correções de ortografia e pontuação."
+  },
+  {
+    "code": "EF15LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Produção de textos (escrita compartilhada e autônoma)",
+    "obj": "Edição de textos",
+    "hab": "Editar a versão final do texto, em colaboração com os colegas e com a ajuda do professor, ilustrando, quando for o caso, em suporte adequado, manual ou digital."
+  },
+  {
+    "code": "EF15LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Produção de textos (escrita compartilhada e autônoma)",
+    "obj": "Utilização de tecnologia digital",
+    "hab": "Utilizar software, inclusive programas de edição de texto, para editar e publicar os textos produzidos, explorando os recursos multissemióticos disponíveis."
+  },
+  {
+    "code": "EF15LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Oralidade",
+    "obj": "Oralidade pública/Intercâmbio conversacional em sala de aula",
+    "hab": "Expressar-se em situações de intercâmbio oral com clareza, preocupando-se em ser compreendido pelo interlocutor e usando a palavra com tom de voz audível, boa articulação e ritmo adequado."
+  },
+  {
+    "code": "EF15LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Oralidade",
+    "obj": "Escuta atenta",
+    "hab": "Escutar, com atenção, falas de professores e colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."
+  },
+  {
+    "code": "EF15LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Oralidade",
+    "obj": "Características da conversação espontânea",
+    "hab": "Reconhecer características da conversação espontânea presencial, respeitando os turnos de fala, selecionando e utilizando, durante a conversação, formas de tratamento adequadas, de acordo com a situação e a posição do interlocutor."
+  },
+  {
+    "code": "EF15LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Oralidade",
+    "obj": "Aspectos não linguísticos (paralinguísticos) no ato da fala",
+    "hab": "Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."
+  },
+  {
+    "code": "EF15LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Oralidade",
+    "obj": "Relato oral/Registro formal e informal",
+    "hab": "Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.)."
+  },
+  {
+    "code": "EF15LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "campo": "Oralidade",
+    "obj": "Contagem de histórias",
+    "hab": "Recontar oralmente, com e sem apoio de imagem, textos literários lidos pelo professor."
+  },
+  {
+    "code": "EF12LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Decodificação/Fluência de leitura",
+    "hab": "Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização."
+  },
+  {
+    "code": "EF12LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Formação de leitor",
+    "hab": "Buscar, selecionar e ler, com a mediação do professor (leitura compartilhada), textos que circulam em meios impressos ou digitais, de acordo com as necessidades e interesses."
+  },
+  {
+    "code": "EF12LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Compreensão em leitura",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade."
+  },
+  {
+    "code": "EF12LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Compreensão em leitura",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF12LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Compreensão em leitura",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF12LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Compreensão em leitura",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor, cartazes, avisos, folhetos, regras e regulamentos que organizam a vida na comunidade escolar, dentre outros gêneros do campo da atuação cidadã, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF12LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Compreensão em leitura",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor, enunciados de tarefas escolares, diagramas, curiosidades, pequenos relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, entre outros gêneros do campo investigativo, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF12LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Apreciação estética/Estilo",
+    "hab": "Apreciar poemas e outros textos versificados, observando rimas, sonoridades, jogos de palavras, reconhecendo seu pertencimento ao mundo imaginário e sua dimensão de encantamento, jogo e fruição."
+  },
+  {
+    "code": "EF12LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Construção do sistema alfabético/Estabelecimento de relações anafóricas na referenciação e construção da coesão",
+    "hab": "Copiar textos breves, mantendo suas características e voltando para o texto sempre que tiver dúvidas sobre sua distribuição gráfica, espaçamento entre as palavras, escrita das palavras e pontuação."
+  },
+  {
+    "code": "EF12LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Produção de texto oral",
+    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, (re)contagens de histórias, poemas e outros textos versificados (letras de canção, quadrinhas, cordel), poemas visuais, tiras e histórias em quadrinhos, dentre outros gêneros do campo artístico-literário, considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "code": "EF12LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Escrita compartilhada",
+    "hab": "Escrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF12LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Escrita compartilhada",
+    "hab": "Escrever, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF12LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Oralidade",
+    "obj": "Produção de texto oral",
+    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, recados, avisos, convites, receitas, instruções de montagem, dentre outros gêneros do campo da vida cotidiana, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF12LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Oralidade",
+    "obj": "Produção de texto oral",
+    "hab": "Planejar, em colaboração com os colegas e com a ajuda do professor, slogans e peça de campanha de conscientização destinada ao público infantil que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF12LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Forma de composição do texto",
+    "hab": "Identificar e (re)produzir, em cantiga, quadras, quadrinhas, parlendas, trava-línguas e canções, rimas, aliterações, assonâncias, o ritmo de fala relacionado ao ritmo e à melodia das músicas e seus efeitos de sentido."
+  },
+  {
+    "code": "EF12LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em fotolegendas de notícias, álbum de fotos digital noticioso, cartas de leitor (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais."
+  },
+  {
+    "code": "EF12LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Forma de composição do texto",
+    "hab": "Identificar a forma de composição de slogans publicitários."
+  },
+  {
+    "code": "EF12LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil (orais e escritos, digitais ou impressos), a formatação e diagramação específica de cada um desses gêneros, inclusive o uso de imagens."
+  },
+  {
+    "code": "EF12LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "1º e 2º anos",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Formas de composição de textos poéticos",
+    "hab": "Reconhecer, em textos versificados, rimas, sonoridades, jogos de palavras, palavras, expressões, comparações, relacionando-as com sensações e associações."
+  },
+  {
+    "code": "EF01LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Protocolos de leitura",
+    "hab": "Reconhecer que textos são lidos e escritos da esquerda para a direita e de cima para baixo da página."
+  },
+  {
+    "code": "EF01LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Leitura/escuta (compartilhada e autônoma)",
+    "obj": "Compreensão em leitura",
+    "hab": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor, quadras, quadrinhas, parlendas, trava-línguas, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade."
+  },
+  {
+    "code": "EF01LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Correspondência fonema-grafema",
+    "hab": "Escrever, espontaneamente ou por ditado, palavras e frases de forma alfabética – usando letras/grafemas que representem fonemas."
+  },
+  {
+    "code": "EF01LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Construção do sistema alfabético/Convenções da escrita",
+    "hab": "Observar escritas convencionais, comparando-as às suas produções escritas, percebendo semelhanças e diferenças."
+  },
+  {
+    "code": "EF01LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Escrita autônoma e compartilhada",
+    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem e legendas para álbuns, fotos ou ilustrações (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF01LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Escrita autônoma e compartilhada",
+    "hab": "Registrar, em colaboração com os colegas e com a ajuda do professor, cantigas, quadras, quadrinhas, parlendas, trava-línguas, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF01LP21",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Escrita compartilhada",
+    "hab": "Escrever, em colaboração com os colegas e com a ajuda do professor, listas de regras e regulamentos que organizam a vida na comunidade escolar, dentre outros gêneros do campo da atuação cidadã, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF01LP22",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Produção de textos",
+    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, diagramas, entrevistas, curiosidades, dentre outros gêneros do campo investigativo, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF01LP25",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Escrita (compartilhada e autônoma)",
+    "obj": "Escrita autônoma e compartilhada",
+    "hab": "Produzir, tendo o professor como escriba, recontagens de histórias lidas pelo professor, histórias imaginadas ou baseadas em livros de imagens, observando a forma de composição de textos narrativos (personagens, enredo, tempo e espaço)."
+  },
+  {
+    "code": "EF01LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Oralidade",
+    "obj": "Produção de texto oral",
+    "hab": "Recitar parlendas, quadras, quadrinhas, trava-línguas, com entonação adequada e observando as rimas."
+  },
+  {
+    "code": "EF01LP23",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Oralidade",
+    "obj": "Planejamento de texto oral/Exposição oral",
+    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, entrevistas, curiosidades, dentre outros gêneros do campo investigativo, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF01LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Conhecimento do alfabeto do português do Brasil",
+    "hab": "Distinguir as letras do alfabeto de outros sinais gráficos."
+  },
+  {
+    "code": "EF01LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Construção do sistema alfabético",
+    "hab": "Reconhecer o sistema de escrita alfabética como representação dos sons da fala."
+  },
+  {
+    "code": "EF01LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Construção do sistema alfabético",
+    "hab": "Segmentar oralmente palavras em sílabas."
+  },
+  {
+    "code": "EF01LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Construção do sistema alfabético",
+    "hab": "Identificar fonemas e sua representação por letras."
+  },
+  {
+    "code": "EF01LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Construção do sistema alfabético e da ortografia",
+    "hab": "Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita."
+  },
+  {
+    "code": "EF01LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Construção do sistema alfabético e da ortografia",
+    "hab": "Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas iniciais."
+  },
+  {
+    "code": "EF01LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Conhecimento do alfabeto do português do Brasil",
+    "hab": "Nomear as letras do alfabeto e recitá-lo na ordem das letras."
+  },
+  {
+    "code": "EF01LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Conhecimento das diversas grafias do alfabeto/Acentuação",
+    "hab": "Conhecer, diferenciar e relacionar letras em formato imprensa e cursiva, maiúsculas e minúsculas."
+  },
+  {
+    "code": "EF01LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Segmentação de palavras/Classificação de palavras por número de sílabas",
+    "hab": "Reconhecer a separação das palavras, na escrita, por espaços em branco."
+  },
+  {
+    "code": "EF01LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Construção do sistema alfabético",
+    "hab": "Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas mediais e finais."
+  },
+  {
+    "code": "EF01LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Pontuação",
+    "hab": "Identificar outros sinais no texto além das letras, como pontos finais, de interrogação e exclamação e seus efeitos na entonação."
+  },
+  {
+    "code": "EF01LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Sinonímia e antonímia/Morfologia/Pontuação",
+    "hab": "Agrupar palavras pelo critério de aproximação de significado (sinonímia) e separar palavras pelo critério de oposição de significado (antonímia)."
+  },
+  {
+    "code": "EF01LP20",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em listas, agendas, calendários, regras, avisos, convites, receitas, instruções de montagem e legendas para álbuns, fotos ou ilustrações (digitais ou impressos), a formatação e diagramação específica de cada um desses gêneros."
+  },
+  {
+    "code": "EF01LP24",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Forma de composição dos textos/Adequação do texto às normas de escrita",
+    "hab": "Identificar e reproduzir, em enunciados de tarefas escolares, diagramas, entrevistas, curiosidades, digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais."
+  },
+  {
+    "code": "EF01LP26",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ano",
+    "campo": "Análise linguística/semiótica",
+    "obj": "Formas de composição de narrativas",
+    "hab": "Identificar elementos de uma narrativa lida ou escutada, incluindo personagens, enredo, tempo e espaço."
+  }
+]
