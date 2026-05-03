@@ -501,7 +501,7 @@
     "ano": "2º ano",
     "obj": "Análise linguística/semiótica",
     "campo": "Forma de composição do texto",
-    "hab": "Identificar e reproduzir, em relatos de experiências pessoais, a sequência dos fatos, utilizando expressões que marquem a passagem do tempo (\"antes\", \"depois\", \"ontem\", \"hoje\", \"amanhã\", \"outro dia\", \"antigamente\", \"há muito tempo\" etc.), e o nível de informatividade necessário."
+    "hab": "Identificar e reproduzir, em relatos de experiências pessoais, a sequência dos fatos, utilizando expressões que marquem a passagem do tempo (“antes”, “depois”, “ontem”, “hoje”, “amanhã”, “outro dia”, “antigamente”, “há muito tempo” etc.), e o nível de informatividade necessário."
   },
   {
     "code": "EF12LP08",
@@ -637,7 +637,7 @@
     "ano": "2º ano",
     "obj": "Escrita",
     "campo": "Produção de textos",
-    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, pequenos relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, dentre outros gêneros do campo investigativo, digitais ou impressos, considerando a situation comunicativa e o tema/assunto/finalidade do texto."
+    "hab": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, pequenos relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, dentre outros gêneros do campo investigativo, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
   },
   {
     "code": "EF02LP23",
@@ -744,11 +744,1019 @@
     "hab": "Observar, em poemas visuais, o formato do texto na página, as ilustrações e outros efeitos visuais."
   },
   {
+    "code": "EF35LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Decodificação/Fluência de leitura",
+    "hab": "Ler e compreender, silenciosamente e, em seguida, em voz alta, com autonomia e fluência, textos curtos com nível de textualidade adequado."
+  },
+  {
+    "code": "EF35LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Formação de leitor",
+    "hab": "Selecionar livros da biblioteca e/ou do cantinho de leitura da sala de aula e/ou disponíveis em meios digitais para leitura individual, justificando a escolha e compartilhando com os colegas sua opinião, após a leitura."
+  },
+  {
+    "code": "EF35LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão",
+    "hab": "Identificar a ideia central do texto, demonstrando compreensão global."
+  },
+  {
+    "code": "EF35LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Estratégia de leitura",
+    "hab": "Inferir informações implícitas nos textos lidos."
+  },
+  {
+    "code": "EF35LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Estratégia de leitura",
+    "hab": "Inferir o sentido de palavras ou expressões desconhecidas em textos, com base no contexto da frase ou do texto."
+  },
+  {
+    "code": "EF35LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Estratégia de leitura",
+    "hab": "Recuperar relações entre partes de um texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos – pessoais, possessivos, demonstrativos) que contribuem para a continuidade do texto."
+  },
+  {
+    "code": "EF35LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Construção do sistema alfabético/Convenções da escrita",
+    "hab": "Utilizar, ao produzir um texto, conhecimentos linguísticos e gramaticais, tais como ortografia, regras básicas de concordância nominal e verbal, pontuação (ponto final, ponto de exclamação, ponto de interrogação, vírgulas em enumerações) e pontuação do discurso direto, quando for o caso."
+  },
+  {
+    "code": "EF35LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Construção do sistema alfabético/Estabelecimento de relações anafóricas na referenciação e construção da coesão",
+    "hab": "Utilizar, ao produzir um texto, recursos de referenciação (por substituição lexical ou por pronomes pessoais, possessivos e demonstrativos), vocabulário apropriado ao gênero, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível suficiente de informatividade."
+  },
+  {
+    "code": "EF35LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Planejamento de texto/Progressão temática e paragrafação",
+    "hab": "Organizar o texto em unidades de sentido, dividindo-o em parágrafos segundo as normas gráficas e de acordo com as características do gênero textual."
+  },
+  {
+    "code": "EF35LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "Forma de composição de gêneros orais",
+    "hab": "Identificar gêneros do discurso oral, utilizados em diferentes situações e contextos comunicativos, e suas características linguístico-expressivas e composicionais (conversação espontânea, conversação telefônica, entrevistas pessoais, entrevistas no rádio ou na TV, debate, noticiário de rádio e TV, narração de jogos esportivos no rádio e TV, aula, debate etc.)."
+  },
+  {
+    "code": "EF35LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "Variação linguística",
+    "hab": "Ouvir gravações, canções, textos falados em diferentes variedades linguísticas, identificando características regionais, urbanas e rurais da fala e respeitando as diversas variedades linguísticas como características do uso da língua por diferentes grupos regionais ou diferentes culturas locais, rejeitando preconceitos linguísticos."
+  },
+  {
+    "code": "EF35LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema."
+  },
+  {
+    "code": "EF35LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema."
+  },
+  {
+    "code": "EF35LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia",
+    "hab": "Identificar em textos e usar na produção textual pronomes pessoais, possessivos e demonstrativos, como recurso coesivo anafórico."
+  },
+  {
+    "code": "EF35LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Opinar e defender ponto de vista sobre tema polêmico relacionado a situações vivenciadas na escola e/ou na comunidade, utilizando registro formal e estrutura adequada à argumentação, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF35LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos",
+    "hab": "Identificar e reproduzir, em notícias, manchetes, lides e corpo de notícias simples para público infantil e cartas de reclamação (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais."
+  },
+  {
+    "code": "EF35LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Pesquisa",
+    "hab": "Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais."
+  },
+  {
+    "code": "EF35LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "Escuta de textos orais",
+    "hab": "Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."
+  },
+  {
+    "code": "EF35LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "Compreensão de textos orais",
+    "hab": "Recuperar as ideias principais em situações formais de escuta de exposições, apresentações e palestras."
+  },
+  {
+    "code": "EF35LP20",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "Planejamento de texto oral / Exposição oral",
+    "hab": "Expor trabalhos ou pesquisas escolares, em sala de aula, com apoio de recursos multissemióticos (imagens, diagrama, tabelas etc.), orientando-se por roteiro escrito, planejando o tempo de fala e adequando a linguagem à situação comunicativa."
+  },
+  {
+    "code": "EF35LP21",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Formação do leitor literário",
+    "hab": "Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores."
+  },
+  {
+    "code": "EF35LP22",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Formação do leitor literário/Leitura multissemiótica",
+    "hab": "Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto."
+  },
+  {
+    "code": "EF35LP23",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Apreciação estética/Estilo",
+    "hab": "Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrões e seu efeito de sentido."
+  },
+  {
+    "code": "EF35LP24",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Textos dramáticos",
+    "hab": "Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena."
+  },
+  {
+    "code": "EF35LP25",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita autônoma e compartilhada",
+    "hab": "Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens."
+  },
+  {
+    "code": "EF35LP26",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita autônoma e compartilhada",
+    "hab": "Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto."
+  },
+  {
+    "code": "EF35LP27",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita autônoma",
+    "hab": "Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros."
+  },
+  {
+    "code": "EF35LP28",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "Declamação",
+    "hab": "Declamar poemas, com entonação, postura e interpretação adequadas."
+  },
+  {
+    "code": "EF35LP29",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Formas de composição de narrativas",
+    "hab": "Identificar, em narrativas, cenário, personagem central, conflito gerador, resolução e o ponto de vista com base no qual histórias são narradas, diferenciando narrativas em primeira e terceira pessoas."
+  },
+  {
+    "code": "EF35LP30",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Discurso direto e indireto",
+    "hab": "Diferenciar discurso indireto e discurso direto, determinando o efeito de sentido de verbos de enunciação e explicando o uso de variedades linguísticas no discurso direto, quando for o caso."
+  },
+  {
+    "code": "EF35LP31",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ao 5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição de textos poéticos",
+    "hab": "Identificar, em textos versificados, efeitos de sentido decorrentes do uso de recursos rítmicos e sonoros e de metáforas."
+  },
+  {
+    "code": "EF03LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Ler e escrever palavras com correspondências regulares contextuais entre grafemas e fonemas – c/qu; g/gu; r/rr; s/ss; o (e não u) e e (e não i) em sílaba átona em final de palavra – e com marcas de nasalidade (til, m, n)."
+  },
+  {
+    "code": "EF03LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, VC, VV, CVV, identificando que existem vogais em todas as sílabas."
+  },
+  {
+    "code": "EF03LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Ler e escrever corretamente palavras com os dígrafos lh, nh, ch."
+  },
+  {
+    "code": "EF03LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Conhecimento das diversas grafias do alfabeto/Acentuação",
+    "hab": "Usar acento gráfico (agudo ou circunflexo) em monossílabos tônicos terminados em a, e, o e em palavras oxítonas terminadas em a, e, o, seguidas ou não de s."
+  },
+  {
+    "code": "EF03LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Segmentação de palavras/Classificação de palavras por número de sílabas",
+    "hab": "Identificar o número de sílabas de palavras, classificando-as em monossílabas, dissílabas, trissílabas e polissílabas."
+  },
+  {
+    "code": "EF03LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético",
+    "hab": "Identificar a sílaba tônica em palavras, classificando-as em oxítonas, paroxítonas e proparoxítonas."
+  },
+  {
+    "code": "EF03LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Pontuação",
+    "hab": "Identificar a função na leitura e usar na escrita ponto final, ponto de interrogação, ponto de exclamação e, em diálogos (discurso direto), dois-pontos e travessão."
+  },
+  {
+    "code": "EF03LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia/Morfossintaxe",
+    "hab": "Identificar e diferenciar, em textos, substantivos e verbos e suas funções na oração: agente, ação, objeto da ação."
+  },
+  {
+    "code": "EF03LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfossintaxe",
+    "hab": "Identificar, em textos, adjetivos e sua função de atribuição de propriedades aos substantivos."
+  },
+  {
+    "code": "EF03LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia",
+    "hab": "Reconhecer prefixos e sufixos produtivos na formação de palavras derivadas de substantivos, de adjetivos e de verbos, utilizando-os para compreender palavras e para formar novas palavras."
+  },
+  {
+    "code": "EF03LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, textos injuntivos instrucionais (receitas, instruções de montagem etc.), com a estrutura própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e mesclando palavras, imagens e recursos gráfico-visuais, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, cartas pessoais e diários, com expressão de sentimentos e opiniões, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Planejar e produzir cartas pessoais e diários, com expressão de sentimentos e opiniões, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções dos gêneros carta e diário e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Planejar e produzir textos injuntivos instrucionais, com a estrutura própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e mesclando palavras, imagens e recursos gráfico-visuais, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Oralidade",
+    "campo": "Produção de texto oral",
+    "hab": "Assistir, em vídeo digital, a programa de culinária infantil e, a partir dele, planejar e produzir receitas em áudio ou vídeo."
+  },
+  {
+    "code": "EF03LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em textos injuntivos instrucionais (receitas, instruções de montagem, digitais ou impressos), a formatação própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e a diagramação específica dos textos desses gêneros (lista de ingredientes ou materiais e instruções de execução – 'modo de fazer')."
+  },
+  {
+    "code": "EF03LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em gêneros epistolares e diários, a formatação própria desses textos (relatos de acontecimentos, expressão de vivências, emoções, opiniões ou críticas) e a diagramação específica dos textos desses gêneros (data, saudação, corpo do texto, despedida, assinatura)."
+  },
+  {
+    "code": "EF03LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, cartas dirigidas a veículos da mídia impressa ou digital (cartas de leitor e de reclamação a jornais, revistas) e notícias, dentre outros gêneros do campo jornalístico, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Identificar e discutir o propósito do uso de recursos de persuasão (cores, imagens, escolha de palavras, jogo de palavras, tamanho de letras) em textos publicitários e de propaganda, como elementos de convencimento."
+  },
+  {
+    "code": "EF03LP20",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Produzir cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), dentre outros gêneros do campo político-cidadão, com opiniões e críticas, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP21",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Produzir anúncios publicitários, textos de campanhas de conscientização destinados ao público infantil, observando os recursos de persuasão utilizados nos textos publicitários e de propaganda (cores, imagens, slogan, escolha de palavras, jogo de palavras, tamanho e tipo de letras, diagramação)."
+  },
+  {
+    "code": "EF03LP22",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Oralidade",
+    "campo": "Planejamento e produção de texto",
+    "hab": "Planejar e produzir, em colaboração com os colegas, telejornal para público infantil com algumas notícias e textos de campanhas que possam ser repassados oralmente ou em meio digital, em áudio ou vídeo, considerando a situação comunicativa, a organização específica da fala nesses gêneros e o tema/assunto/finalidade dos textos."
+  },
+  {
+    "code": "EF03LP23",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos",
+    "hab": "Analisar o uso de adjetivos em cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), digitais ou impressas."
+  },
+  {
+    "code": "EF03LP24",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler/ouvir e compreender, com autonomia, relatos de observações e de pesquisas em fontes de informações, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP25",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Produção de textos",
+    "campo": "Produção de textos",
+    "hab": "Planejar e produzir textos para apresentar resultados de observações e de pesquisas em fontes de informações, incluindo, quando pertinente, imagens, diagramas e gráficos ou tabelas simples, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF03LP26",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos / Adequação do texto às normas de escrita",
+    "hab": "Identificar e reproduzir, em relatórios de observação e pesquisa, a formatação e diagramação específica desses gêneros (passos ou listas de itens, tabelas, ilustrações, gráficos, resumo dos resultados), inclusive em suas versões orais."
+  },
+  {
+    "code": "EF03LP27",
+    "disc": "Língua Portuguesa",
+    "ano": "3º ano",
+    "obj": "Oralidade",
+    "campo": "Performances orais",
+    "hab": "Recitar cordel e cantar repentes e emboladas, observando as rimas e obedecendo ao ritmo e à melodia."
+  },
+  {
+    "code": "EF04LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Grafar palavras utilizando regras de correspondência fonema-grafema regulares diretas e contextuais."
+  },
+  {
+    "code": "EF04LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Ler e escrever, corretamente, palavras com sílabas VV e CVV em casos nos quais a combinação VV (ditongo) é reduzida na língua oral (ai, ei, ou)."
+  },
+  {
+    "code": "EF04LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Conhecimento do alfabeto do português do Brasil/Ordem alfabética/Polissemia",
+    "hab": "Localizar palavras no dicionário para esclarecer significados, reconhecendo o significado mais plausível para o contexto que deu origem à consulta."
+  },
+  {
+    "code": "EF04LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Conhecimento das diversas grafias do alfabeto/Acentuação",
+    "hab": "Usar acento gráfico (agudo ou circunflexo) em paroxítonas terminadas em -i(s), -l, -r, -ão(s)."
+  },
+  {
+    "code": "EF04LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Pontuação",
+    "hab": "Identificar a função na leitura e usar, adequadamente, na escrita ponto final, de interrogação, de exclamação, dois-pontos e travessão em diálogos (discurso direto), vírgula em enumerações e em separação de vocativo e de aposto."
+  },
+  {
+    "code": "EF04LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia/Morfossintaxe",
+    "hab": "Identificar em textos e usar na produção textual a concordância entre substantivo ou pronome pessoal e verbo (concordância verbal)."
+  },
+  {
+    "code": "EF04LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfossintaxe",
+    "hab": "Identificar em textos e usar na produção textual a concordância entre artigo, substantivo e adjetivo (concordância no grupo nominal)."
+  },
+  {
+    "code": "EF04LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia",
+    "hab": "Reconhecer e grafar, corretamente, palavras derivadas com os sufixos -agem, -oso, -eza, -izar/-isar (regulares morfológicas)."
+  },
+  {
+    "code": "EF04LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, boletos, faturas e carnês, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero (campos, itens elencados, medidas de consumo, código de barras) e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "code": "EF04LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, cartas pessoais de reclamação, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF04LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Planejar e produzir, com autonomia, cartas pessoais de reclamação, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e com a estrutura própria desses textos (problema, opinião, argumentos), considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF04LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Oralidade",
+    "campo": "Produção de texto oral",
+    "hab": "Assistir, em vídeo digital, a programa infantil com instruções de montagem, de jogos e brincadeiras e, a partir dele, planejar e produzir tutoriais em áudio ou vídeo."
+  },
+  {
+    "code": "EF04LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em textos injuntivos instrucionais (instruções de jogos digitais ou impressos), a formatação própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e formato específico dos textos orais ou escritos desses gêneros (lista/apresentação de materiais e instruções/passos de jogo)."
+  },
+  {
+    "code": "EF04LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Identificar, em notícias, fatos, participantes, local e momento/tempo da ocorrência do fato noticiado."
+  },
+  {
+    "code": "EF04LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Distinguir fatos de opiniões/sugestões em textos (informativos, jornalísticos, publicitários etc.)."
+  },
+  {
+    "code": "EF04LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Produzir notícias sobre fatos ocorridos no universo escolar, digitais ou impressas, para o jornal da escola, noticiando os fatos e seus atores e comentando decorrências, de acordo com as convenções do gênero notícia e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF04LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Oralidade",
+    "campo": "Planejamento e produção de texto",
+    "hab": "Produzir jornais radiofônicos ou televisivos e entrevistas veiculadas em rádio, TV e na internet, orientando-se por roteiro ou texto e demonstrando conhecimento dos gêneros jornal falado/televisivo e entrevista."
+  },
+  {
+    "code": "EF04LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos",
+    "hab": "Analisar o padrão entonacional e a expressão facial e corporal de âncoras de jornais radiofônicos ou televisivos e de entrevistadores/entrevistados."
+  },
+  {
+    "code": "EF04LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender textos expositivos de divulgação científica para crianças, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF04LP20",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Imagens analíticas em textos",
+    "hab": "Reconhecer a função de gráficos, diagramas e tabelas em textos, como forma de apresentação de dados e informações."
+  },
+  {
+    "code": "EF04LP21",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Produção de textos",
+    "campo": "Produção de textos",
+    "hab": "Planejar e produzir textos sobre temas de interesse, com base em resultados de observações e pesquisas em fontes de informações impressas ou eletrônicas, incluindo, quando pertinente, imagens e gráficos ou tabelas simples, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF04LP22",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita autônoma",
+    "hab": "Planejar e produzir, com certa autonomia, verbetes de enciclopédia infantil, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF04LP23",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos / Coesão e articuladores",
+    "hab": "Identificar e reproduzir, em verbetes de enciclopédia infantil, digitais ou impressos, a formatação e diagramação específica desse gênero (título do verbete, definição, detalhamento, curiosidades), considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF04LP24",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos / Adequação do texto às normas de escrita",
+    "hab": "Identificar e reproduzir, em seu formato, tabelas, diagramas e gráficos em relatórios de observação e pesquisa, como forma de apresentação de dados e informações."
+  },
+  {
+    "code": "EF04LP25",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Oralidade",
+    "campo": "Performances orais",
+    "hab": "Representar cenas de textos dramáticos, reproduzindo as falas das personagens, de acordo com as rubricas de interpretação e movimento indicadas pelo autor."
+  },
+  {
+    "code": "EF04LP26",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição de textos poéticos visuais",
+    "hab": "Observar, em poemas concretos, o formato, a distribuição e a diagramação das letras do texto na página."
+  },
+  {
+    "code": "EF04LP27",
+    "disc": "Língua Portuguesa",
+    "ano": "4º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição de textos dramáticos",
+    "hab": "Identificar, em textos dramáticos, marcadores das falas das personagens e de cena."
+  },
+  {
+    "code": "EF05LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Construção do sistema alfabético e da ortografia",
+    "hab": "Grafar palavras utilizando regras de correspondência fonema-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares."
+  },
+  {
+    "code": "EF05LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Conhecimento do alfabeto do português do Brasil/Ordem alfabética/Polissemia",
+    "hab": "Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual."
+  },
+  {
+    "code": "EF05LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Conhecimento das diversas grafias do alfabeto/Acentuação",
+    "hab": "Acentuar corretamente palavras oxítonas, paroxítonas e proparoxítonas."
+  },
+  {
+    "code": "EF05LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Pontuação",
+    "hab": "Diferenciar, na leitura de textos, vírgula, ponto e vírgula, dois-pontos e reconhecer, na leitura de textos, o efeito de sentido que decorre do uso de reticências, aspas, parênteses."
+  },
+  {
+    "code": "EF05LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia/Morfossintaxe",
+    "hab": "Identificar a expressão de presente, passado e futuro em tempos verbais do modo indicativo."
+  },
+  {
+    "code": "EF05LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia/Morfossintaxe",
+    "hab": "Flexionar, adequadamente, na escrita e na oralidade, os verbos em concordância com pronomes pessoais/nomes sujeitos da oração."
+  },
+  {
+    "code": "EF05LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia",
+    "hab": "Identificar, em textos, o uso de conjunções e a relação que estabelecem entre partes do texto: adição, oposição, tempo, causa, condição, finalidade."
+  },
+  {
+    "code": "EF05LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Morfologia",
+    "hab": "Diferenciar palavras primitivas, derivadas e compostas, e derivadas por adição de prefixo e de sufixo."
+  },
+  {
+    "code": "EF05LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, textos instrucional de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "code": "EF05LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "code": "EF05LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Registrar, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "code": "EF05LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Planejar e produzir, com autonomia, textos instrucionais de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "code": "EF05LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Oralidade",
+    "campo": "Produção de texto oral",
+    "hab": "Assistir, em vídeo digital, a postagem de vlog infantil de críticas de brinquedos e livros de literatura infantil e, a partir dele, planejar e produzir resenhas digitais em áudio ou vídeo."
+  },
+  {
+    "code": "EF05LP14",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição do texto",
+    "hab": "Identificar e reproduzir, em textos de resenha crítica de brinquedos ou livros de literatura infantil, a formatação própria desses textos (apresentação e avaliação do produto)."
+  },
+  {
+    "code": "EF05LP15",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF05LP16",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Comparar informações sobre um mesmo fato veiculadas em diferentes mídias e concluir sobre qual é mais confiável e por quê."
+  },
+  {
+    "code": "EF05LP17",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita colaborativa",
+    "hab": "Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF05LP18",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Oralidade",
+    "campo": "Planejamento e produção de texto",
+    "hab": "Roteirizar, produzir e editar vídeo para vlogs argumentativos sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF05LP19",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Oralidade",
+    "campo": "Produção de texto",
+    "hab": "Argumentar oralmente sobre acontecimentos de interesse social, com base em conhecimentos sobre fatos divulgados em TV, rádio, mídia impressa e digital, respeitando pontos de vista diferentes."
+  },
+  {
+    "code": "EF05LP20",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos",
+    "hab": "Analisar a validade e força de argumentos em argumentações sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos."
+  },
+  {
+    "code": "EF05LP21",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos",
+    "hab": "Analisar o padrão entonacional, a expressão facial e corporal e as escolhas de variedade e registro linguísticos de vloggers de vlogs opinativos ou argumentativos."
+  },
+  {
+    "code": "EF05LP22",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Compreensão em leitura",
+    "hab": "Ler e compreender verbetes de dicionário, identificando a estrutura, as informações gramaticais (significado de abreviaturas) e as informações semânticas."
+  },
+  {
+    "code": "EF05LP23",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "Imagens analíticas em textos",
+    "hab": "Comparar informações apresentadas em gráficos ou tabelas."
+  },
+  {
+    "code": "EF05LP24",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Produção de textos",
+    "campo": "Produção de textos",
+    "hab": "Planejar e produzir texto sobre tema de interesse, organizando resultados de pesquisa em fontes de informação impressas ou digitais, incluindo imagens e gráficos ou tabelas, considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "code": "EF05LP25",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Produção de textos",
+    "campo": "Escrita autônoma",
+    "hab": "Planejar e produzir, com certa autonomia, verbetes de dicionário, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto."
+  },
+  {
+    "code": "EF05LP26",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos / Adequação do texto às normas de escrita",
+    "hab": "Utilizar, ao produzir o texto, conhecimentos linguísticos e gramaticais: regras sintáticas de concordância nominal e verbal, convenções de escrita de citações, pontuação (ponto final, dois-pontos, vírgulas em enumerações) e regras ortográficas."
+  },
+  {
+    "code": "EF05LP27",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição dos textos / Coesão e articuladores",
+    "hab": "Utilizar, ao produzir o texto, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível adequado de informatividade."
+  },
+  {
+    "code": "EF05LP28",
+    "disc": "Língua Portuguesa",
+    "ano": "5º ano",
+    "obj": "Análise linguística/semiótica",
+    "campo": "Forma de composição de textos poéticos visuais",
+    "hab": "Observar, em ciberpoemas e minicontos infantis em mídia digital, os recursos multissemióticos presentes nesses textos digitais."
+  },
+  {
+    "code": "EF15LP01",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam."
+  },
+  {
+    "code": "EF15LP02",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas."
+  },
+  {
+    "code": "EF15LP03",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Localizar informações explícitas em textos."
+  },
+  {
+    "code": "EF15LP04",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Leitura/escuta",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos."
+  },
+  {
+    "code": "EF15LP05",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Planejar, com a ajuda do professor, o texto que será produzido, considerando a situação comunicativa, os interlocutores (quem escreve/para quem escreve); a finalidade ou o propósito (escrever para quê); a circulação (onde o texto vai circular); o suporte (qual é o portador do texto); a linguagem, organização e forma do texto e seu tema, pesquisando em meios impressos ou digitais, sempre que for preciso, informações necessárias à produção do texto, organizando em tópicos os dados e as fontes pesquisadas."
+  },
+  {
+    "code": "EF15LP06",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Reler e revisar o texto produzido com a ajuda do professor e a colaboração dos colegas, para corrigi-lo e aprimorá-lo, fazendo cortes, acréscimos, reformulações, correções de ortografia e pontuação."
+  },
+  {
+    "code": "EF15LP07",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Editar a versão final do texto, em colaboração com os colegas e com a ajuda do professor, ilustrando, quando for o caso, em suporte adequado, manual ou digital."
+  },
+  {
+    "code": "EF15LP08",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Produção de textos",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Utilizar software, inclusive programas de edição de texto, para editar e publicar os textos produzidos, explorando os recursos multissemióticos disponíveis."
+  },
+  {
+    "code": "EF15LP09",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Expressar-se em situações de intercâmbio oral com clareza, preocupando-se em ser compreendido pelo interlocutor e usando a palavra com tom de voz audível, boa articulação e ritmo adequado."
+  },
+  {
+    "code": "EF15LP10",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Escutar, com atenção, falas de professores e colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."
+  },
+  {
+    "code": "EF15LP11",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Reconhecer características da conversação espontânea presencial, respeitando os turnos de fala, selecionando e utilizando, durante a conversação, formas de tratamento adequadas, de acordo com a situação e a posição do interlocutor."
+  },
+  {
+    "code": "EF15LP12",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."
+  },
+  {
+    "code": "EF15LP13",
+    "disc": "Língua Portuguesa",
+    "ano": "1º ao 5º ano",
+    "obj": "Oralidade",
+    "campo": "TODOS OS CAMPOS DE ATUAÇÃO",
+    "hab": "Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.)."
+  },
+  {
     "code": "EF01MA01",
     "disc": "Matemática",
     "ano": "1º ano",
     "obj": "Números",
-    "campo": "Contagem de rotina / Contagem ascendente e descendente / Reconhecimento de números no contexto diário...",
+    "campo": "Contagem de rotina / Contagem ascendente e descendente / Reconhecimento de números no contexto diário",
     "hab": "Utilizar números naturais como indicador de quantidade ou de ordem em diferentes situações cotidianas e reconhecer situações em que os números não indicam contagem nem ordem, mas sim código de identificação."
   },
   {
@@ -764,8 +1772,8 @@
     "disc": "Matemática",
     "ano": "1º ano",
     "obj": "Números",
-    "campo": "Quantificação de elementos de uma coleção...",
-    "hab": "Estimar e comparar quantidades de objetos de dois conjuntos (em torno de 20 elementos), por estimativa e/ou por correspondência (um a um, dois a dois) para indicar \"tem mais\", \"tem menos\" ou \"tem a mesma quantidade\"."
+    "campo": "Quantificação de elementos de uma coleção",
+    "hab": "Estimar e comparar quantidades de objetos de dois conjuntos (em torno de 20 elementos), por estimativa e/ou por correspondência (um a um, dois a dois) para indicar “tem mais”, “tem menos” ou “tem a mesma quantidade”."
   },
   {
     "code": "EF01MA04",
@@ -820,7 +1828,7 @@
     "disc": "Matemática",
     "ano": "1º ano",
     "obj": "Álgebra",
-    "campo": "Sequências recursivas: observação de regras usadas utilizadas em seriações numéricas...",
+    "campo": "Sequências recursivas: observação de regras usadas utilizadas em seriações numéricas",
     "hab": "Descrever, após o reconhecimento e a explicitação de um padrão (ou regularidade), os elementos ausentes em sequências recursivas de números naturais, objetos ou figuras."
   },
   {
@@ -924,7 +1932,7 @@
     "disc": "Matemática",
     "ano": "2º ano",
     "obj": "Números",
-    "campo": "Leitura, escrita, comparação e ordenação de números de até três ordens pela compreensão de características do sistema de numeração decimal...",
+    "campo": "Leitura, escrita, comparação e ordenação de números de até três ordens pela compreensão de características do sistema de numeração decimal",
     "hab": "Comparar e ordenar números naturais (até a ordem de centenas) pela compreensão de características do sistema de numeração decimal (valor posicional e função do zero)."
   },
   {
@@ -932,7 +1940,7 @@
     "disc": "Matemática",
     "ano": "2º ano",
     "obj": "Números",
-    "campo": "Leitura, escrita, comparação e ordenação de números de até três ordens...",
+    "campo": "Leitura, escrita, comparação e ordenação de números de até três ordens",
     "hab": "Fazer estimativas por meio de estratégias diversas a respeito da quantidade de objetos de coleções e registrar o resultado da contagem desses objetos (até 1000 unidades)."
   },
   {
@@ -940,7 +1948,7 @@
     "disc": "Matemática",
     "ano": "2º ano",
     "obj": "Números",
-    "campo": "Leitura, escrita, comparação e ordenação de números de até três ordens...",
+    "campo": "Leitura, escrita, comparação e ordenação de números de até três ordens",
     "hab": "Comparar quantidades de objetos de dois conjuntos, por estimativa e/ou por correspondência (um a um, dois a dois, entre outros), para indicar “tem mais”, “tem menos” ou “tem a mesma quantidade”, indicando, quando for o caso, quantos a mais e quantos a menos."
   },
   {
@@ -973,7 +1981,7 @@
     "ano": "2º ano",
     "obj": "Números",
     "campo": "Problemas envolvendo adição de parcelas iguais (multiplicação)",
-    "hab": "Resolver e elaborar problemas de multiplicação (por 2, 3, 4 e 5) com a ideia de adição de parcelas iguais por meio de estratégias e formas de registro pessoais, utilizando ou não suporte de imagens e/ou material manipulável."
+    "hab": "Resolver e elaborar problemas de multiplication (por 2, 3, 4 e 5) com a ideia de adição de parcelas iguais por meio de estratégias e formas de registro pessoais, utilizando ou não suporte de imagens e/ou material manipulável."
   },
   {
     "code": "EF02MA08",
@@ -1164,7 +2172,7 @@
     "disc": "Matemática",
     "ano": "3º ano",
     "obj": "Números",
-    "campo": "Problemas envolvendo diferentes significados da multiplicação e da divisão...",
+    "campo": "Problemas envolvendo diferentes significados da multiplicação e da divisão",
     "hab": "Resolver e elaborar problemas de divisão de um número natural por outro (até 10), com resto zero e com resto diferente de zero, com os significados de repartição equitativa e de medida, por meio de estratégias e registros pessoais."
   },
   {
@@ -1380,7 +2388,7 @@
     "disc": "Matemática",
     "ano": "4º ano",
     "obj": "Números",
-    "campo": "Problemas envolvendo diferentes significados da multiplicação e da divisão...",
+    "campo": "Problemas envolvendo diferentes significados da multiplicação e da divisão",
     "hab": "Resolver e elaborar problemas de divisão cujo divisor tenha no máximo dois algarismos, envolvendo os significados de repartição equitativa e de medida, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos."
   },
   {
@@ -1516,7 +2524,7 @@
     "disc": "Matemática",
     "ano": "4º ano",
     "obj": "Grandezas e medidas",
-    "campo": "Medidas de temperatura em grau Celsius...",
+    "campo": "Medidas de temperatura em grau Celsius",
     "hab": "Registrar as temperaturas máxima e mínima diárias, em locais do seu cotidiano, e elaborar gráficos de colunas com as variações diárias da temperatura, utilizando, inclusive, planilhas eletrônicas."
   },
   {
@@ -1748,394 +2756,426 @@
     "disc": "Matemática",
     "ano": "5º ano",
     "obj": "Probabilidade e estatística",
-    "campo": "Leitura, coleta, classificação interpretação e representação de dados em tabelas de dupla entrada...",
+    "campo": "Leitura, coleta, classificação interpretação e representação de dados em tabelas de dupla entrada",
     "hab": "Realizar pesquisa envolvendo variáveis categóricas e numéricas, organizar dados coletados por meio de tabelas, gráficos de colunas, pictóricos e de linhas, com e sem uso de tecnologias digitais, e apresentar texto escrito sobre a finalidade da pesquisa e a síntese dos resultados."
   },
-  {
-    "code": "EF01CI01",
-    "disc": "Ciências",
+{
+    "code": "EF01HI01",
+    "disc": "História",
     "ano": "1º ano",
-    "obj": "Matéria e energia",
-    "campo": "Características dos materiais",
-    "hab": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente."
+    "obj": "Mundo pessoal: meu lugar no mundo",
+    "campo": "As fases da vida e a ideia de temporalidade (passado, presente, futuro)",
+    "hab": "Identificar aspectos do seu crescimento por meio do registro das lembranças particulares ou de lembranças dos membros de sua família e/ou de sua comunidade."
   },
   {
-    "code": "EF01CI02",
-    "disc": "Ciências",
+    "code": "EF01HI02",
+    "disc": "História",
     "ano": "1º ano",
-    "obj": "Vida e evolução",
-    "campo": "Corpo humano / Respeito à diversidade",
-    "hab": "Localizar, nomear e representar graficamente (por meio de desenhos) partes do corpo humano e explicar suas funções."
+    "obj": "Mundo pessoal: meu lugar no mundo",
+    "campo": "As diferentes formas de organização da família e da comunidade: os vínculos pessoais e as relações de amizade",
+    "hab": "Identificar a relação entre as suas histórias e as histórias de sua família e de sua comunidade."
   },
   {
-    "code": "EF01CI03",
-    "disc": "Ciências",
+    "code": "EF01HI03",
+    "disc": "História",
     "ano": "1º ano",
-    "obj": "Vida e evolução",
-    "campo": "Corpo humano / Respeito à diversidade",
-    "hab": "Discutir as razões pelas quais os hábitos de higiene do corpo (lavar as mãos antes de comer, escovar os dentes, limpar os olhos, o nariz e as orelhas etc.) são necessários para a manutenção da saúde."
+    "obj": "Mundo pessoal: meu lugar no mundo",
+    "campo": "As diferentes formas de organização da família e da comunidade",
+    "hab": "Descrever e distinguir os seus papéis e responsabilidades relacionados à família, à escola e à comunidade."
   },
   {
-    "code": "EF01CI04",
-    "disc": "Ciências",
+    "code": "EF01HI04",
+    "disc": "História",
     "ano": "1º ano",
-    "obj": "Vida e evolução",
-    "campo": "Corpo humano / Respeito à diversidade",
-    "hab": "Comparar características físicas entre os colegas, reconhecendo a diversidade e a importância da valorização, do acolhimento e do respeito às diferenças."
+    "obj": "Mundo pessoal: meu lugar no mundo",
+    "campo": "A escola e a diversidade do grupo social envolvido",
+    "hab": "Identificar as diferenças entre os variados ambientes em que vive (doméstico, escolar e da comunidade), reconhecendo as especificidades dos hábitos e das regras que os regem."
   },
   {
-    "code": "EF01CI05",
-    "disc": "Ciências",
+    "code": "EF01HI05",
+    "disc": "História",
     "ano": "1º ano",
-    "obj": "Terra e Universo",
-    "campo": "Escalas de tempo",
-    "hab": "Identificar e nomear diferentes escalas de tempo: os períodos diários (manhã, tarde, noite) e a sucessão de dias, semanas, meses e anos."
+    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
+    "campo": "A vida em casa, a vida na escola e formas de representação social e espacial: os jogos e brincadeiras como forma de interação social e espacial",
+    "hab": "Identificar semelhanças e diferenças entre jogos e brincadeiras atuais e de outras épocas e lugares."
   },
   {
-    "code": "EF01CI06",
-    "disc": "Ciências",
+    "code": "EF01HI06",
+    "disc": "História",
     "ano": "1º ano",
-    "obj": "Terra e Universo",
-    "campo": "Escalas de tempo",
-    "hab": "Selecionar exemplos de como a sucessão de dias e noites orienta o ritmo de atividades diárias de seres humanos e de outros seres vivos."
+    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
+    "campo": "A vida em família: diferentes configurações e vínculos",
+    "hab": "Conhecer as histórias da família e da escola e identificar o papel desempenhado por diferentes sujeitos em diferentes espaços."
   },
   {
-    "code": "EF02CI01",
-    "disc": "Ciências",
+    "code": "EF01HI07",
+    "disc": "História",
+    "ano": "1º ano",
+    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
+    "campo": "A vida em família: diferentes configurações e vínculos",
+    "hab": "Identificar mudanças e permanências nas formas de organização familiar."
+  },
+  {
+    "code": "EF01HI08",
+    "disc": "História",
+    "ano": "1º ano",
+    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
+    "campo": "A escola, sua representação espacial, sua história e seu papel na comunidade",
+    "hab": "Reconhecer o significado das comemorações e festas escolares, diferenciando-as das datas festivas comemoradas no âmbito familiar ou da comunidade."
+  },
+  {
+    "code": "EF02HI01",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades e usos dos materiais / Prevenção de acidentes domésticos",
-    "hab": "Identificar de que materiais (metais, madeira, vidro etc.) são feitos os objetos que fazem parte da vida cotidiana, como esses objetos são utilizados e com quais materiais eram produzidos no passado."
+    "obj": "A comunidade e seus registros",
+    "campo": "A noção do “Eu” e do “Outro”: comunidade, convivências e interações entre pessoas",
+    "hab": "Reconhecer espaços de sociabilidade e identificar os motivos que aproximam e separam as pessoas em diferentes grupos sociais ou de parentesco."
   },
   {
-    "code": "EF02CI02",
-    "disc": "Ciências",
+    "code": "EF02HI02",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades e usos dos materiais / Prevenção de acidentes domésticos",
-    "hab": "Propor o uso de diferentes materiais para a construção de objetos de uso cotidiano, tendo em vista algumas propriedades desses materiais (flexibilidade, dureza, transparência etc.)."
+    "obj": "A comunidade e seus registros",
+    "campo": "A noção do “Eu” e do “Outro”: comunidade, convivências e interações entre pessoas",
+    "hab": "Identificar e descrever práticas e papéis sociais que as pessoas exercem em diferentes comunidades."
   },
   {
-    "code": "EF02CI03",
-    "disc": "Ciências",
+    "code": "EF02HI03",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades e usos dos materiais / Prevenção de acidentes domésticos",
-    "hab": "Discutir os cuidados necessários à prevenção de acidentes domésticos (objetos cortantes e inflamáveis, eletricidade, produtos de limpeza, medicamentos etc.)."
+    "obj": "A comunidade e seus registros",
+    "campo": "A noção do “Eu” e do “Outro”: comunidade, convivências e interações entre pessoas",
+    "hab": "Selecionar situações cotidianas que remetam à percepção de mudança, pertencimento e memória."
   },
   {
-    "code": "EF02CI04",
-    "disc": "Ciências",
+    "code": "EF02HI04",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Vida e evolução",
-    "campo": "Seres vivos no ambiente / Plantas",
-    "hab": "Descrever características de plantas e animais (tamanho, forma, cor, fase da vida, local onde se desenvolvem etc.) que fazem parte de seu cotidiano e relacioná-las ao ambiente em que eles vivem."
+    "obj": "A comunidade e seus registros",
+    "campo": "A noção do “Eu” e do “Outro”: registros de experiências pessoais e da comunidade no tempo e no espaço",
+    "hab": "Selecionar e compreender o significado de objetos e documentos pessoais como fontes de memórias e histórias nos âmbitos pessoal, familiar, escolar e comunitário."
   },
   {
-    "code": "EF02CI05",
-    "disc": "Ciências",
+    "code": "EF02HI05",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Vida e evolução",
-    "campo": "Seres vivos no ambiente / Plantas",
-    "hab": "Investigar a importância da água e da luz para a manutenção da vida de plantas em geral."
+    "obj": "A comunidade e seus registros",
+    "campo": "Formas de registrar e narrar histórias (marcos de memória materiais e imateriais)",
+    "hab": "Selecionar objetos e documentos pessoais e de grupos próximos ao seu convívio e compreender sua função, seu uso e seu significado."
   },
   {
-    "code": "EF02CI06",
-    "disc": "Ciências",
+    "code": "EF02HI06",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Vida e evolução",
-    "campo": "Seres vivos no ambiente / Plantas",
-    "hab": "Identificar as principais partes de uma planta (raiz, caule, folhas, flores e frutos) e a função desempenhada por cada uma delas, e analisar as relações entre as plantas, o ambiente e os demais seres vivos."
+    "obj": "A comunidade e seus registros",
+    "campo": "O tempo como medida",
+    "hab": "Identificar e organizar, temporalmente, fatos da vida cotidiana, usando noções relacionadas ao tempo (antes, durante, ao mesmo tempo e depois)."
   },
   {
-    "code": "EF02CI07",
-    "disc": "Ciências",
+    "code": "EF02HI07",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Terra e Universo",
-    "campo": "Movimento aparente do Sol no céu / O Sol como fonte de luz e calor",
-    "hab": "Descrever as posições do Sol em diversos horários do dia e associá-las ao tamanho da sombra projetada."
+    "obj": "A comunidade e seus registros",
+    "campo": "O tempo como medida",
+    "hab": "Identificar e utilizar diferentes marcadores do tempo presentes na comunidade, como relógio e calendário."
   },
   {
-    "code": "EF02CI08",
-    "disc": "Ciências",
+    "code": "EF02HI08",
+    "disc": "História",
     "ano": "2º ano",
-    "obj": "Terra e Universo",
-    "campo": "Movimento aparente do Sol no céu / O Sol como fonte de luz e calor",
-    "hab": "Comparar o efeito da radiação solar (aquecimento e reflexão) em diferentes tipos de superfície (água, areia, solo, superfícies escura, clara e metálica etc.)."
+    "obj": "As formas de registrar as experiências da comunidade",
+    "campo": "As fontes: relatos orais, objetos, imagens (pinturas, fotografias, vídeos), músicas, escrita, tecnologias digitais de informação e comunicação e inscrições nas paredes, ruas e espaços sociais",
+    "hab": "Compilar histórias da família e/ou da comunidade registradas em diferentes fontes."
   },
   {
-    "code": "EF03CI01",
-    "disc": "Ciências",
+    "code": "EF02HI09",
+    "disc": "História",
+    "ano": "2º ano",
+    "obj": "As formas de registrar as experiências da comunidade",
+    "campo": "As fontes: relatos orais, objetos, imagens...",
+    "hab": "Identificar objetos e documentos pessoais que remetam à própria experiência no âmbito da família e/ou da comunidade, discutindo as razões pelas quais alguns objetos são preservados e outros são descartados."
+  },
+  {
+    "code": "EF02HI10",
+    "disc": "História",
+    "ano": "2º ano",
+    "obj": "O trabalho e a sustentabilidade na comunidade",
+    "campo": "A sobrevivência e a relação com a natureza",
+    "hab": "Identificar diferentes formas de trabalho existentes na comunidade em que vive, seus significados, suas especificidades e importância."
+  },
+  {
+    "code": "EF02HI11",
+    "disc": "História",
+    "ano": "2º ano",
+    "obj": "O trabalho e a sustentabilidade na comunidade",
+    "campo": "A sobrevivência e a relação com a natureza",
+    "hab": "Identificar impactos no ambiente causados pelas diferentes formas de trabalho existentes na comunidade em que vive."
+  },
+  {
+    "code": "EF03HI01",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Matéria e energia",
-    "campo": "Produção de som / Efeitos da luz nos materiais / Saúde auditiva e visual",
-    "hab": "Produzir diferentes sons a partir da vibração de variados objetos e identificar variáveis que influem nesse fenômeno."
+    "obj": "As pessoas e os grupos que compõem a cidade e o município",
+    "campo": "O “Eu”, o “Outro” e os diferentes grupos sociais e étnicos que compõem a cidade e os municípios: os desafios sociais, culturais e ambientais do lugar onde vive",
+    "hab": "Identificar os grupos populacionais que formam a cidade, o município e a região, as relações estabelecidas entre eles e os eventos que marcam a formação da cidade, como fenômenos migratórios (vida rural/vida urbana), desmatamentos, estabelecimento de grandes empresas etc."
   },
   {
-    "code": "EF03CI02",
-    "disc": "Ciências",
+    "code": "EF03HI02",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Matéria e energia",
-    "campo": "Produção de som / Efeitos da luz nos materiais / Saúde auditiva e visual",
-    "hab": "Experimentar e relatar o que ocorre com a passagem da luz através de objetos transparentes (copos, janelas de vidro, lentes, prismas, água etc.), no contato com superfícies polidas (espelhos) e na intersecção com objetos opacos (paredes, pratos, pessoas e outros objetos de uso cotidiano)."
+    "obj": "As pessoas e os grupos que compõem a cidade e o município",
+    "campo": "O “Eu”, o “Outro” e os diferentes grupos sociais...",
+    "hab": "Selecionar, por meio da consulta de fontes de diferentes naturezas, e registrar acontecimentos ocorridos ao longo do tempo na cidade ou região em que vive."
   },
   {
-    "code": "EF03CI03",
-    "disc": "Ciências",
+    "code": "EF03HI03",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Matéria e energia",
-    "campo": "Produção de som / Efeitos da luz nos materiais / Saúde auditiva e visual",
-    "hab": "Discutir hábitos necessários para a manutenção da saúde auditiva e visual considerando as condições do ambiente em termos de som e luz."
+    "obj": "As pessoas e os grupos que compõem a cidade e o município",
+    "campo": "O “Eu”, o “Outro” e os diferentes grupos sociais...",
+    "hab": "Identificar e comparar pontos de vista em relação a eventos significativos do local em que vive, aspectos relacionados a condições sociais e à presença de diferentes grupos sociais e culturais, com especial destaque para as culturas africanas, indígenas e de migrantes."
   },
   {
-    "code": "EF03CI04",
-    "disc": "Ciências",
+    "code": "EF03HI04",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Vida e evolução",
-    "campo": "Características e desenvolvimento dos animais",
-    "hab": "Identificar características sobre o modo de vida (o que comem, como se reproduzem, como se deslocam etc.) dos animais mais comuns no ambiente próximo."
+    "obj": "As pessoas e os grupos que compõem a cidade e o município",
+    "campo": "Os patrimônios históricos e culturais da cidade e/ou do município em que vive",
+    "hab": "Identificar os patrimônios históricos e culturais de sua cidade ou região e discutir as razões culturais, sociais e políticas para que assim sejam considerados."
   },
   {
-    "code": "EF03CI05",
-    "disc": "Ciências",
+    "code": "EF03HI05",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Vida e evolução",
-    "campo": "Características e desenvolvimento dos animais",
-    "hab": "Descrever e comunicar as alterações que ocorrem desde o nascimento em animais de diferentes meios terrestres ou aquáticos, inclusive o homem."
+    "obj": "O lugar em que vive",
+    "campo": "A produção dos marcos da memória: os lugares de memória (ruas, praças, escolas, monumentos, museus etc.)",
+    "hab": "Identificar os marcos históricos do lugar em que vive e compreender seus significados."
   },
   {
-    "code": "EF03CI06",
-    "disc": "Ciências",
+    "code": "EF03HI06",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Vida e evolução",
-    "campo": "Características e desenvolvimento dos animais",
-    "hab": "Comparar alguns animais e organizar grupos com base em características externas comuns (presença de penas, pelos, escamas, bico, garras, antenas, patas etc.)."
+    "obj": "O lugar em que vive",
+    "campo": "A produção dos marcos da memória: os lugares de memória...",
+    "hab": "Identificar os registros de memória na cidade (nomes de ruas, monumentos, edifícios etc.), discutindo os critérios que explicam a escolha desses nomes."
   },
   {
-    "code": "EF03CI07",
-    "disc": "Ciências",
+    "code": "EF03HI07",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Terra e Universo",
-    "campo": "Características da Terra / Observação do céu / Usos do solo",
-    "hab": "Identificar características da Terra (como seu formato esférico, a presença de água, solo etc.), com base na observação, manipulação e comparação de diferentes formas de representação do planeta (mapas, globos, fotografias etc.)."
+    "obj": "O lugar em que vive",
+    "campo": "A produção dos marcos da memória: formação cultural da população",
+    "hab": "Identificar semelhanças e diferenças existentes entre comunidades de sua cidade ou região, e descrever o papel dos diferentes grupos sociais que as formam."
   },
   {
-    "code": "EF03CI08",
-    "disc": "Ciências",
+    "code": "EF03HI08",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Terra e Universo",
-    "campo": "Características da Terra / Observação do céu / Usos do solo",
-    "hab": "Observar, identificar e registrar os períodos diários (dia e/ou noite) em que o Sol, demais estrelas, Lua e planetas estão visíveis no céu."
+    "obj": "O lugar em que vive",
+    "campo": "A produção dos marcos da memória: a cidade e o campo, aproximações e diferenças",
+    "hab": "Identificar modos de vida na cidade e no campo no presente, comparando-os com os do passado."
   },
   {
-    "code": "EF03CI09",
-    "disc": "Ciências",
+    "code": "EF03HI09",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Terra e Universo",
-    "campo": "Características da Terra / Observação do céu / Usos do solo",
-    "hab": "Comparar diferentes amostras de solo do entorno da escola com base em características como cor, textura, cheiro, tamanho das partículas, permeabilidade etc."
+    "obj": "A noção de espaço público e privado",
+    "campo": "A cidade, seus espaços públicos e privados e suas áreas de conservação ambiental",
+    "hab": "Mapear os espaços públicos no lugar em que vive (ruas, praças, escolas, hospitais, prédios da Prefeitura e da Câmara de Vereadores etc.) e identificar suas funções."
   },
   {
-    "code": "EF03CI10",
-    "disc": "Ciências",
+    "code": "EF03HI10",
+    "disc": "História",
     "ano": "3º ano",
-    "obj": "Terra e Universo",
-    "campo": "Características da Terra / Observação do céu / Usos do solo",
-    "hab": "Identificar os diferentes usos do solo (plantação e extração de materiais, dentre outras possibilidades), reconhecendo a importância do solo para a agricultura e para a vida."
+    "obj": "A noção de espaço público e privado",
+    "campo": "A cidade, seus espaços públicos e privados e suas áreas de conservação ambiental",
+    "hab": "Identificar as diferenças entre o espaço doméstico, os espaços públicos e as áreas de conservação ambiental, compreendendo a importância dessa distinção."
   },
   {
-    "code": "EF04CI01",
-    "disc": "Ciências",
+    "code": "EF03HI11",
+    "disc": "História",
+    "ano": "3º ano",
+    "obj": "A noção de espaço público e privado",
+    "campo": "A cidade e suas atividades: trabalho, cultura e lazer",
+    "hab": "Identificar diferenças entre formas de trabalho realizadas na cidade e no campo, considerando também o uso da tecnologia nesses diferentes contextos."
+  },
+  {
+    "code": "EF03HI12",
+    "disc": "História",
+    "ano": "3º ano",
+    "obj": "A noção de espaço público e privado",
+    "campo": "A cidade e suas atividades: trabalho, cultura e lazer",
+    "hab": "Comparar as relações de trabalho e lazer do presente com as de outros tempos e espaços, analisando mudanças e permanências."
+  },
+  {
+    "code": "EF04HI01",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Matéria e energia",
-    "campo": "Misturas / Transformações reversíveis e não reversíveis",
-    "hab": "Identificar misturas na vida diária, com base em suas propriedades físicas observáveis, reconhecendo sua composição."
+    "obj": "Transformações e permanências nas trajetórias dos grupos humanos",
+    "campo": "A ação das pessoas, grupos sociais e comunidades no tempo e no espaço: nomadismo, agricultura, escrita, navegações, indústria, entre outras",
+    "hab": "Reconhecer a história como resultado da ação do ser humano no tempo e no espaço, com base na identificação de mudanças e permanências ao longo do tempo."
   },
   {
-    "code": "EF04CI02",
-    "disc": "Ciências",
+    "code": "EF04HI02",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Matéria e energia",
-    "campo": "Misturas / Transformações reversíveis e não reversíveis",
-    "hab": "Testar e relatar transformações nos materiais do dia a dia quando expostos a diferentes condições (aquecimento, resfriamento, luz e umidade)."
+    "obj": "Transformações e permanências nas trajetórias dos grupos humanos",
+    "campo": "A ação das pessoas, grupos sociais e comunidades no tempo e no espaço...",
+    "hab": "Identificar mudanças e permanências ao longo do tempo, discutindo os sentidos dos grandes marcos da história da humanidade (nomadismo, desenvolvimento da agricultura e do pastoreio, criação da indústria etc.)."
   },
   {
-    "code": "EF04CI03",
-    "disc": "Ciências",
+    "code": "EF04HI03",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Matéria e energia",
-    "campo": "Misturas / Transformações reversíveis e não reversíveis",
-    "hab": "Concluir que algumas mudanças causadas por aquecimento ou resfriamento são reversíveis (como as mudanças de estado físico da água) e outras não (como o cozimento do ovo, a queima do papel etc.)."
+    "obj": "Transformações e permanências nas trajetórias dos grupos humanos",
+    "campo": "O passado e o presente: a noção de permanência e as lentas transformações sociais e culturais",
+    "hab": "Identificar as transformações ocorridas na cidade ao longo do tempo e discutir suas interferências nos modos de vida de seus habitantes, tomando como ponto de partida o presente."
   },
   {
-    "code": "EF04CI04",
-    "disc": "Ciências",
+    "code": "EF04HI04",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Vida e evolução",
-    "campo": "Cadeias alimentares simples / Microrganismos",
-    "hab": "Analisar e construir cadeias alimentares simples, reconhecendo a posição ocupada pelos seres vivos nessas cadeias e o papel do Sol como fonte primária de energia na produção de alimentos."
+    "obj": "Circulação de pessoas, produtos e culturas",
+    "campo": "A circulação de pessoas e as transformações no meio natural",
+    "hab": "Identificar as relações entre os indivíduos e a natureza e discutir o significado do nomadismo e da fixação das primeiras comunidades humanas."
   },
   {
-    "code": "EF04CI05",
-    "disc": "Ciências",
+    "code": "EF04HI05",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Vida e evolução",
-    "campo": "Cadeias alimentares simples / Microrganismos",
-    "hab": "Descrever e destacar semelhanças e diferenças entre o ciclo da matéria e o fluxo de energia entre os componentes vivos e não vivos de um ecossistema."
+    "obj": "Circulação de pessoas, produtos e culturas",
+    "campo": "A circulação de pessoas e as transformações no meio natural",
+    "hab": "Relacionar os processos de ocupação do campo a intervenções na natureza, avaliando os resultados dessas intervenções."
   },
   {
-    "code": "EF04CI06",
-    "disc": "Ciências",
+    "code": "EF04HI06",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Vida e evolução",
-    "campo": "Cadeias alimentares simples / Microrganismos",
-    "hab": "Relacionar a participação de fungos e bactérias no processo de decomposição, reconhecendo a importância ambiental desse processo."
+    "obj": "Circulação de pessoas, produtos e culturas",
+    "campo": "A invenção do comércio e a circulação de produtos",
+    "hab": "Identificar as transformações ocorridas nos processos de deslocamento das pessoas e mercadorias, analisando as formas de adaptação ou marginalização."
   },
   {
-    "code": "EF04CI07",
-    "disc": "Ciências",
+    "code": "EF04HI07",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Vida e evolução",
-    "campo": "Cadeias alimentares simples / Microrganismos",
-    "hab": "Verificar a participação de microrganismos na produção de alimentos, combustíveis, medicamentos, entre outros."
+    "obj": "Circulação de pessoas, produtos e culturas",
+    "campo": "As rotas terrestres, fluviais e marítimas e seus impactos para a formação de cidades e as transformações do meio natural",
+    "hab": "Identificar e descrever a importância dos caminhos terrestres, fluviais e marítimos para a dinâmica da vida comercial."
   },
   {
-    "code": "EF04CI08",
-    "disc": "Ciências",
+    "code": "EF04HI08",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Vida e evolução",
-    "campo": "Cadeias alimentares simples / Microrganismos",
-    "hab": "Propor, a partir do conhecimento das formas de transmissão de alguns microrganismos (vírus, bactérias e protozoários), atitudes e medidas adequadas para prevenção de doenças a eles associadas."
+    "obj": "Circulação de pessoas, produtos e culturas",
+    "campo": "O mundo da tecnologia: a integração de pessoas e as exclusões sociais e culturais",
+    "hab": "Identificar as transformações ocorridas nos meios de comunicação (cultura oral, imprensa, rádio, televisão, cinema, internet e demais tecnologias digitais de informação e comunicação) e discutir seus significados para os diferentes grupos ou estratos sociais."
   },
   {
-    "code": "EF04CI09",
-    "disc": "Ciências",
+    "code": "EF04HI09",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Terra e Universo",
-    "campo": "Pontos cardeais / Calendários, fenômenos cíclicos e cultura",
-    "hab": "Identificar os pontos cardeais, com base no registro de diferentes posições relativas do Sol e da sombra de uma vara (gnômon)."
+    "obj": "As questões históricas relativas às migrações",
+    "campo": "O surgimento da espécie humana no continente africano e sua expansão pelo mundo",
+    "hab": "Identificar as motivações dos processos migratórios em diferentes tempos e espaços e avaliar o papel desempenhado pela migração nas regiões de destino."
   },
   {
-    "code": "EF04CI10",
-    "disc": "Ciências",
+    "code": "EF04HI10",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Terra e Universo",
-    "campo": "Pontos cardeais / Calendários, fenômenos cíclicos e cultura",
-    "hab": "Comparar as indicações dos pontos cardeais resultantes da observação das sombras de uma vara (gnômon) com aquelas obtidas por meio de uma bússola."
+    "obj": "As questões históricas relativas às migrações",
+    "campo": "Os processos migratórios para a formação do Brasil: os grupos indígenas, a presença portuguesa e a diáspora forçada dos africanos / Os processos migratórios do final do século XIX e início do século XX no Brasil / As dinâmicas internas de migração no Brasil a partir dos anos 1960",
+    "hab": "Analisar diferentes fluxos populacionais e suas contribuições para a formação da sociedade brasileira."
   },
   {
-    "code": "EF04CI11",
-    "disc": "Ciências",
+    "code": "EF04HI11",
+    "disc": "História",
     "ano": "4º ano",
-    "obj": "Terra e Universo",
-    "campo": "Pontos cardeais / Calendários, fenômenos cíclicos e cultura",
-    "hab": "Associar os movimentos cíclicos da Lua e da Terra a períodos de tempo regulares e ao uso desse conhecimento para a construção de calendários em diferentes culturas."
+    "obj": "As questões históricas relativas às migrações",
+    "campo": "Os processos migratórios para a formação do Brasil...",
+    "hab": "Analisar, na sociedade em que vive, a existência ou não de mudanças associadas à migração (interna e internacional)."
   },
   {
-    "code": "EF05CI01",
-    "disc": "Ciências",
+    "code": "EF05HI01",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
-    "hab": "Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecânicas (dureza, elasticidade etc.), entre outras."
+    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
+    "campo": "O que forma um povo: do nomadismo aos primeiros povos sedentarizados",
+    "hab": "Identificar os processos de formação das culturas e dos povos, relacionando-os com o espaço geográfico ocupado."
   },
   {
-    "code": "EF05CI02",
-    "disc": "Ciências",
+    "code": "EF05HI02",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
-    "hab": "Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais)."
+    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
+    "campo": "As formas de organização social e política: a noção de Estado",
+    "hab": "Identificar os mecanismos de organização do poder político com vistas à compreensão da ideia de Estado e/ou de outras formas de ordenação social."
   },
   {
-    "code": "EF05CI03",
-    "disc": "Ciências",
+    "code": "EF05HI03",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
-    "hab": "Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."
+    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
+    "campo": "O papel das religiões e da cultura para a formação dos povos antigos",
+    "hab": "Analisar o papel das culturas e das religiões na composição identitária dos povos antigos."
   },
   {
-    "code": "EF05CI04",
-    "disc": "Ciências",
+    "code": "EF05HI04",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
-    "hab": "Identificar os principais usos da água e de outros materiais nas atividades cotidianas para discutir e propor formas sustentáveis de utilização desses recursos."
+    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
+    "campo": "Cidadania, diversidade cultural e respeito às diferenças sociais, culturais e históricas",
+    "hab": "Associar a noção de cidadania com os princípios de respeito à diversidade, à pluralidade e aos direitos humanos."
   },
   {
-    "code": "EF05CI05",
-    "disc": "Ciências",
+    "code": "EF05HI05",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Matéria e energia",
-    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
-    "hab": "Construir propostas coletivas para um consumo mais consciente e criar soluções tecnológicas para o descarte adequado e a reutilização ou reciclagem de materiais consumidos na escola e/ou na vida cotidiana."
+    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
+    "campo": "Cidadania, diversidade cultural e respeito às diferenças sociais, culturais e históricas",
+    "hab": "Associar o conceito de cidadania à conquista de direitos dos povos e das sociedades, compreendendo-o como conquista histórica."
   },
   {
-    "code": "EF05CI06",
-    "disc": "Ciências",
+    "code": "EF05HI06",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Vida e evolução",
-    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
-    "hab": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas."
+    "obj": "Registros da história: linguagens e culturas",
+    "campo": "As tradições orais e a valorização da memória / O surgimento da escrita e a noção de fonte para a transmissão de saberes, culturas e histórias",
+    "hab": "Comparar o uso de diferentes linguagens e tecnologias no processo de comunicação e avaliar os significados sociais, políticos e culturais atribuídos a elas."
   },
   {
-    "code": "EF05CI07",
-    "disc": "Ciências",
+    "code": "EF05HI07",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Vida e evolução",
-    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
-    "hab": "Justificar a relação entre o funcionamento do sistema circulatório, a distribuição dos nutrientes pelo organismo e a eliminação dos resíduos produzidos."
+    "obj": "Registros da história: linguagens e culturas",
+    "campo": "As tradições orais e a valorização da memória...",
+    "hab": "Identificar os processos de produção, hierarquização e difusão dos marcos de memória e discutir a presença e/ou a ausência de diferentes grupos que compõem a sociedade na nomeação desses marcos de memória."
   },
   {
-    "code": "EF05CI08",
-    "disc": "Ciências",
+    "code": "EF05HI08",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Vida e evolução",
-    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
-    "hab": "Organizar um cardápio equilibrado com base nas características dos grupos alimentares (nutrientes e calorias) e nas necessidades individuais (atividades realizadas, idade, sexo etc.) para a manutenção da saúde do organismo."
+    "obj": "Registros da história: linguagens e culturas",
+    "campo": "As tradições orais e a valorização da memória...",
+    "hab": "Identificar formas de marcação da passagem do tempo em distintas sociedades, incluindo os povos indígenas originários e os povos africanos."
   },
   {
-    "code": "EF05CI09",
-    "disc": "Ciências",
+    "code": "EF05HI09",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Vida e evolução",
-    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
-    "hab": "Discutir a ocorrência de distúrbios nutricionais (como obesidade, subnutrição etc.) entre crianças e jovens a partir da análise de seus hábitos (tipos e quantidade de alimento ingerido, prática de atividade física etc.)."
+    "obj": "Registros da história: linguagens e culturas",
+    "campo": "As tradições orais e a valorização da memória...",
+    "hab": "Comparar pontos de vista sobre temas que impactam a vida cotidiana no tempo presente, por meio do acesso a diferentes fontes, incluindo orais."
   },
   {
-    "code": "EF05CI10",
-    "disc": "Ciências",
+    "code": "EF05HI10",
+    "disc": "História",
     "ano": "5º ano",
-    "obj": "Terra e Universo",
-    "campo": "Constelações e mapas celestes / Movimento de rotação da Earth / Periodicidade das fases da Lua / Instrumentos óticos",
-    "hab": "Identificar algumas constelações no céu, com o apoio de recursos (como mapas celestes e aplicativos digitais, entre outros), e os períodos do ano em que elas são visíveis no início da noite."
+    "obj": "Registros da história: linguagens e culturas",
+    "campo": "Os patrimônios materiais e imateriais da humanidade",
+    "hab": "Inventariar os patrimônios materiais e imateriais da humanidade e analisar mudanças e permanências desses patrimônios ao longo do tempo."
   },
-  {
-    "code": "EF05CI11",
-    "disc": "Ciências",
-    "ano": "5º ano",
-    "obj": "Terra e Universo",
-    "campo": "Constelações e mapas celestes / Movimento de rotação da Earth / Periodicidade das fases da Lua / Instrumentos óticos",
-    "hab": "Associar o movimento diário do Sol e das demais estrelas no céu ao movimento de rotação da Terra."
-  },
-  {
-    "code": "EF05CI12",
-    "disc": "Ciências",
-    "ano": "5º ano",
-    "obj": "Terra e Universo",
-    "campo": "Constelações e mapas celestes / Movimento de rotação da Earth / Periodicidade das fases da Lua / Instrumentos óticos",
-    "hab": "Concluir sobre a periodicidade das fases da Lua, com base na observação e no registro das formas aparentes da Lua no céu ao longo de, pelo menos, dois meses."
-  },
-  {
-    "code": "EF05CI13",
-    "disc": "Ciências",
-    "ano": "5º ano",
-    "obj": "Terra e Universo",
-    "campo": "Constelações e mapas celestes / Movimento de rotação da Earth / Periodicidade das fases da Lua / Instrumentos óticos",
-    "hab": "Projetar e construir dispositivos para observação à distância (luneta, periscópio etc.), para observação ampliada de objetos (lupas, microscópios) ou para registro de imagens (máquinas fotográficas) e discutir usos sociais desses dispositivos."
-  },
-  {
+{
     "code": "EF01GE01",
     "disc": "Geografia",
     "ano": "1º ano",
@@ -2565,7 +3605,7 @@
     "ano": "5º ano",
     "obj": "Natureza, ambientes e qualidade de vida",
     "campo": "Qualidade ambiental",
-    "hab": "Reconhecer e comparar atributos da qualidade ambiental e algumas forms de poluição dos cursos de água e dos oceanos (esgotos, efluentes industriais, marés negras etc.)."
+    "hab": "Reconhecer e comparar atributos da qualidade ambiental e algumas formas de poluição dos cursos de água e dos oceanos (esgotos, efluentes industriais, marés negras etc.)."
   },
   {
     "code": "EF05GE11",
@@ -2583,423 +3623,815 @@
     "campo": "Gestão pública da qualidade de vida",
     "hab": "Identificar órgãos do poder público e canais de participação social responsáveis por buscar soluções para a melhoria da qualidade de vida (em áreas como meio ambiente, mobilidade, moradia e direito à cidade) e discutir as propostas implementadas por esses órgãos que afetam a comunidade em que vive."
   },
-  {
-    "code": "EF01HI01",
-    "disc": "História",
+{
+    "code": "EF01CI01",
+    "disc": "Ciências",
     "ano": "1º ano",
-    "obj": "Mundo pessoal: meu lugar no mundo",
-    "campo": "As fases da vida e a ideia de temporalidade (passado, presente, futuro)",
-    "hab": "Identificar aspectos do seu crescimento por meio do registro das lembranças particulares ou de lembranças dos membros de sua família e/ou de sua comunidade."
+    "obj": "Matéria e energia",
+    "campo": "Características dos materiais",
+    "hab": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente."
   },
   {
-    "code": "EF01HI02",
-    "disc": "História",
+    "code": "EF01CI02",
+    "disc": "Ciências",
     "ano": "1º ano",
-    "obj": "Mundo pessoal: meu lugar no mundo",
-    "campo": "As diferentes formas de organização da família e da comunidade: os vínculos pessoais e as relações de amizade",
-    "hab": "Identificar a relação entre as suas histórias e as histórias de sua família e de sua comunidade."
+    "obj": "Vida e evolução",
+    "campo": "Corpo humano / Respeito à diversidade",
+    "hab": "Localizar, nomear e representar graficamente (por meio de desenhos) partes do corpo humano e explicar suas funções."
   },
   {
-    "code": "EF01HI03",
-    "disc": "História",
+    "code": "EF01CI03",
+    "disc": "Ciências",
     "ano": "1º ano",
-    "obj": "Mundo pessoal: meu lugar no mundo",
-    "campo": "As diferentes formas de organização da família e da comunidade...",
-    "hab": "Descrever e distinguir os seus papéis e responsabilidades relacionados à família, à escola e à comunidade."
+    "obj": "Vida e evolução",
+    "campo": "Corpo humano / Respeito à diversidade",
+    "hab": "Discutir as razões pelas quais os hábitos de higiene do corpo (lavar as mãos antes de comer, escovar os dentes, limpar os olhos, o nariz e as orelhas etc.) são necessários para a manutenção da saúde."
   },
   {
-    "code": "EF01HI04",
-    "disc": "História",
+    "code": "EF01CI04",
+    "disc": "Ciências",
     "ano": "1º ano",
-    "obj": "Mundo pessoal: meu lugar no mundo",
-    "campo": "A escola e a diversidade do grupo social envolvido",
-    "hab": "Identificar as diferenças entre os variados ambientes em que vive (doméstico, escolar e da comunidade), reconhecendo as especificidades dos hábitos e das regras que os regem."
+    "obj": "Vida e evolução",
+    "campo": "Corpo humano / Respeito à diversidade",
+    "hab": "Comparar características físicas entre os colegas, reconhecendo a diversidade e a importância da valorização, do acolhimento e do respeito às diferenças."
   },
   {
-    "code": "EF01HI05",
-    "disc": "História",
+    "code": "EF01CI05",
+    "disc": "Ciências",
     "ano": "1º ano",
-    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
-    "campo": "A vida em casa, a vida na escola e formas de representação social e espacial: os jogos e brincadeiras como forma de interação social e espacial",
-    "hab": "Identificar semelhanças e diferenças entre jogos e brincadeiras atuais e de outras épocas e lugares."
+    "obj": "Terra e Universo",
+    "campo": "Escalas de tempo",
+    "hab": "Identificar e nomear diferentes escalas de tempo: os períodos diários (manhã, tarde, noite) e a sucessão de dias, semanas, meses e anos."
   },
   {
-    "code": "EF01HI06",
-    "disc": "História",
+    "code": "EF01CI06",
+    "disc": "Ciências",
     "ano": "1º ano",
-    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
-    "campo": "A vida em família: diferentes configurações e vínculos",
-    "hab": "Conhecer as histórias da família e da escola e identificar o papel desempenhado por diferentes sujeitos em diferentes espaços."
+    "obj": "Terra e Universo",
+    "campo": "Escalas de tempo",
+    "hab": "Selecionar exemplos de como a sucessão de dias e noites orienta o ritmo de atividades diárias de seres humanos e de outros seres vivos."
   },
   {
-    "code": "EF01HI07",
-    "disc": "História",
-    "ano": "1º ano",
-    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
-    "campo": "A vida em família: diferentes configurações e vínculos",
-    "hab": "Identificar mudanças e permanências nas formas de organização familiar."
-  },
-  {
-    "code": "EF01HI08",
-    "disc": "História",
-    "ano": "1º ano",
-    "obj": "Mundo pessoal: eu, meu grupo social e meu tempo",
-    "campo": "A escola, sua representação espacial, sua história e seu papel na comunidade",
-    "hab": "Reconhecer o significado das comemorações e festas escolares, diferenciando-as das datas festivas comemoradas no âmbito familiar ou da comunidade."
-  },
-  {
-    "code": "EF02HI01",
-    "disc": "História",
+    "code": "EF02CI01",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "A noção do “Eu” e do “Outro”: comunidade, convivências e interações entre pessoas",
-    "hab": "Reconhecer espaços de sociabilidade e identificar os motivos que aproximam e separam as pessoas em diferentes grupos sociais ou de parentesco."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades e usos dos materiais / Prevenção de acidentes domésticos",
+    "hab": "Identificar de que materiais (metais, madeira, vidro etc.) são feitos os objetos que fazem parte da vida cotidiana, como esses objetos são utilizados e com quais materiais eram produzidos no passado."
   },
   {
-    "code": "EF02HI02",
-    "disc": "História",
+    "code": "EF02CI02",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "A noção do “Eu” e do “Outro”: comunidade, convivências e interações entre pessoas",
-    "hab": "Identificar e descrever práticas e papéis sociais que as pessoas exercem em diferentes comunidades."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades e usos dos materiais / Prevenção de acidentes domésticos",
+    "hab": "Propor o uso de diferentes materiais para a construção de objetos de uso cotidiano, tendo em vista algumas propriedades desses materiais (flexibilidade, dureza, transparência etc.)."
   },
   {
-    "code": "EF02HI03",
-    "disc": "História",
+    "code": "EF02CI03",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "A noção do “Eu” e do “Outro”: registros de experiências pessoais e da comunidade no tempo e no espaço",
-    "hab": "Selecionar situações cotidianas que remetam à percepção de mudança, pertencimento e memória."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades e usos dos materiais / Prevenção de acidentes domésticos",
+    "hab": "Discutir os cuidados necessários à prevenção de acidentes domésticos (objetos cortantes e inflamáveis, eletricidade, produtos de limpeza, medicamentos etc.)."
   },
   {
-    "code": "EF02HI04",
-    "disc": "História",
+    "code": "EF02CI04",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "A noção do “Eu” e do “Outro”: registros de experiências pessoais e da comunidade no tempo e no espaço",
-    "hab": "Selecionar e compreender o significado de objetos e documentos pessoais como fontes de memórias e histórias nos âmbitos pessoal, familiar, escolar e comunitário."
+    "obj": "Vida e evolução",
+    "campo": "Seres vivos no ambiente / Plantas",
+    "hab": "Descrever características de plantas e animais (tamanho, forma, cor, fase da vida, local onde se desenvolvem etc.) que fazem parte de seu cotidiano e relacioná-las ao ambiente em que eles vivem."
   },
   {
-    "code": "EF02HI05",
-    "disc": "História",
+    "code": "EF02CI05",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "Formas de registrar e narrar histórias (marcos de memória materiais e imateriais)",
-    "hab": "Selecionar objetos e documentos pessoais e de grupos próximos ao seu convívio e compreender sua função, seu uso e seu significado."
+    "obj": "Vida e evolução",
+    "campo": "Seres vivos no ambiente / Plantas",
+    "hab": "Investigar a importância da água e da luz para a manutenção da vida de plantas em geral."
   },
   {
-    "code": "EF02HI06",
-    "disc": "História",
+    "code": "EF02CI06",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "O tempo como medida",
-    "hab": "Identificar e organizar, temporalmente, fatos da vida cotidiana, usando noções relacionadas ao tempo (antes, durante, ao mesmo tempo e depois)."
+    "obj": "Vida e evolução",
+    "campo": "Seres vivos no ambiente / Plantas",
+    "hab": "Identificar as principais partes de uma planta (raiz, caule, folhas, flores e frutos) e a função desempenhada por cada uma delas, e analisar as relações entre as plantas, o ambiente e os demais seres vivos."
   },
   {
-    "code": "EF02HI07",
-    "disc": "História",
+    "code": "EF02CI07",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "A comunidade e seus registros",
-    "campo": "O tempo como medida",
-    "hab": "Identificar e utilizar diferentes marcadores do tempo presentes na comunidade, como relógio e calendário."
+    "obj": "Terra e Universo",
+    "campo": "Movimento aparente do Sol no céu / O Sol como fonte de luz e calor",
+    "hab": "Descrever as posições do Sol em diversos horários do dia e associá-las ao tamanho da sombra projetada."
   },
   {
-    "code": "EF02HI08",
-    "disc": "História",
+    "code": "EF02CI08",
+    "disc": "Ciências",
     "ano": "2º ano",
-    "obj": "As formas de registrar as experiências da comunidade",
-    "campo": "As fontes: relatos orais, objetos, imagens (pinturas, fotografias, vídeos), músicas, escrita, tecnologias digitais de informação e comunicação e inscrições nas paredes, ruas e espaços sociais",
-    "hab": "Compilar histórias da família e/ou da comunidade registradas em diferentes fontes."
+    "obj": "Terra e Universo",
+    "campo": "Movimento aparente do Sol no céu / O Sol como fonte de luz e calor",
+    "hab": "Comparar o efeito da radiação solar (aquecimento e reflexão) em diferentes tipos de superfície (água, areia, solo, superfícies escura, clara e metálica etc.)."
   },
   {
-    "code": "EF02HI09",
-    "disc": "História",
-    "ano": "2º ano",
-    "obj": "As formas de registrar as experiências da comunidade",
-    "campo": "As fontes: relatos orais, objetos, imagens...",
-    "hab": "Identificar objetos e documentos pessoais que remetam à própria experiência no âmbito da família e/ou da comunidade, discutindo as razões pelas quais alguns objetos são preservados e outros são descartados."
-  },
-  {
-    "code": "EF02HI10",
-    "disc": "História",
-    "ano": "2º ano",
-    "obj": "O trabalho e a sustentabilidade na comunidade",
-    "campo": "A sobrevivência e a relação com a natureza",
-    "hab": "Identificar diferentes formas de trabalho existentes na comunidade em que vive, seus significados, suas especificidades e importância."
-  },
-  {
-    "code": "EF02HI11",
-    "disc": "História",
-    "ano": "2º ano",
-    "obj": "O trabalho e a sustentabilidade na comunidade",
-    "campo": "A sobrevivência e a relação com a natureza",
-    "hab": "Identificar impactos no ambiente causados pelas diferentes formas de trabalho existentes na comunidade em que vive."
-  },
-  {
-    "code": "EF03HI01",
-    "disc": "História",
+    "code": "EF03CI01",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "As pessoas e os grupos que compõem a cidade e o município",
-    "campo": "O “Eu”, o “Outro” e os diferentes grupos sociais e étnicos que compõem a cidade e os municípios: os desafios sociais, culturais e ambientais do lugar onde vive",
-    "hab": "Identificar os grupos populacionais que formam a cidade, o município e a região, as relações estabelecidas entre eles e os eventos que marcam a formação da cidade, como fenômenos migratórios (vida rural/vida urbana), desmatamentos, estabelecimento de grandes empresas etc."
+    "obj": "Matéria e energia",
+    "campo": "Produção de som / Efeitos da luz nos materiais / Saúde auditiva e visual",
+    "hab": "Produzir diferentes sons a partir da vibração de variados objetos e identificar variáveis que influem nesse fenômeno."
   },
   {
-    "code": "EF03HI02",
-    "disc": "História",
+    "code": "EF03CI02",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "As pessoas e os grupos que compõem a cidade e o município",
-    "campo": "O “Eu”, o “Outro” e os diferentes grupos sociais...",
-    "hab": "Selecionar, por meio da consulta de fontes de diferentes naturezas, e registrar acontecimentos ocorridos ao longo do tempo na cidade ou região em que vive."
+    "obj": "Matéria e energia",
+    "campo": "Produção de som / Efeitos da luz nos materiais / Saúde auditiva e visual",
+    "hab": "Experimentar e relatar o que ocorre com a passagem da luz através de objetos transparentes (copos, janelas de vidro, lentes, prismas, água etc.), no contato com superfícies polidas (espelhos) e na intersecção com objetos opacos (paredes, pratos, pessoas e outros objetos de uso cotidiano)."
   },
   {
-    "code": "EF03HI03",
-    "disc": "História",
+    "code": "EF03CI03",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "As pessoas e os grupos que compõem a cidade e o município",
-    "campo": "O “Eu”, o “Outro” e os diferentes grupos sociais...",
-    "hab": "Identificar e comparar pontos de vista em relação a eventos significativos do local em que vive, aspectos relacionados a condições sociais e à presença de diferentes grupos sociais e culturais, com especial destaque para as culturas africanas, indígenas e de migrantes."
+    "obj": "Matéria e energia",
+    "campo": "Produção de som / Efeitos da luz nos materiais / Saúde auditiva e visual",
+    "hab": "Discutir hábitos necessários para a manutenção da saúde auditiva e visual considerando as condições do ambiente em termos de som e luz."
   },
   {
-    "code": "EF03HI04",
-    "disc": "História",
+    "code": "EF03CI04",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "As pessoas e os grupos que compõem a cidade e o município",
-    "campo": "Os patrimônios históricos e culturais da cidade e/ou do município em que vive",
-    "hab": "Identificar os patrimônios históricos e culturais de sua cidade ou região e discutir as razões culturais, sociais e políticas para que assim sejam considerados."
+    "obj": "Vida e evolução",
+    "campo": "Características e desenvolvimento dos animais",
+    "hab": "Identificar características sobre o modo de vida (o que comem, como se reproduzem, como se deslocam etc.) dos animais mais comuns no ambiente próximo."
   },
   {
-    "code": "EF03HI05",
-    "disc": "História",
+    "code": "EF03CI05",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "O lugar em que vive",
-    "campo": "A produção dos marcos da memória: os lugares de memória (ruas, praças, escolas, monumentos, museus etc.)",
-    "hab": "Identificar os marcos históricos do lugar em que vive e compreender seus significados."
+    "obj": "Vida e evolução",
+    "campo": "Características e desenvolvimento dos animais",
+    "hab": "Descrever e comunicar as alterações que ocorrem desde o nascimento em animais de diferentes meios terrestres ou aquáticos, inclusive o homem."
   },
   {
-    "code": "EF03HI06",
-    "disc": "História",
+    "code": "EF03CI06",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "O lugar em que vive",
-    "campo": "A produção dos marcos da memória: os lugares de memória...",
-    "hab": "Identificar os registros de memória na cidade (nomes de ruas, monumentos, edifícios etc.), discutindo os critérios que explicam a escolha desses nomes."
+    "obj": "Vida e evolução",
+    "campo": "Características e desenvolvimento dos animais",
+    "hab": "Comparar alguns animais e organizar grupos com base em características externas comuns (presença de penas, pelos, escamas, bico, garras, antenas, patas etc.)."
   },
   {
-    "code": "EF03HI07",
-    "disc": "História",
+    "code": "EF03CI07",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "O lugar em que vive",
-    "campo": "A produção dos marcos da memória: formação cultural da população",
-    "hab": "Identificar semelhanças e diferenças existentes entre comunidades de sua cidade ou região, e descrever o papel dos diferentes grupos sociais que as formam."
+    "obj": "Terra e Universo",
+    "campo": "Características da Terra / Observação do céu / Usos do solo",
+    "hab": "Identificar características da Terra (como seu formato esférico, a presença de água, solo etc.), com base na observação, manipulação e comparação de diferentes formas de representação do planeta (mapas, globos, fotografias etc.)."
   },
   {
-    "code": "EF03HI08",
-    "disc": "História",
+    "code": "EF03CI08",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "O lugar em que vive",
-    "campo": "A produção dos marcos da memória: a cidade e o campo, aproximações e diferenças",
-    "hab": "Identificar modos de vida na cidade e no campo no presente, comparando-os com os do passado."
+    "obj": "Terra e Universo",
+    "campo": "Características da Terra / Observação do céu / Usos do solo",
+    "hab": "Observar, identificar e registrar os períodos diários (dia e/ou noite) em que o Sol, demais estrelas, Lua e planetas estão visíveis no céu."
   },
   {
-    "code": "EF03HI09",
-    "disc": "História",
+    "code": "EF03CI09",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "A noção de espaço público e privado",
-    "campo": "A cidade, seus espaços públicos e privados e suas áreas de conservação ambiental",
-    "hab": "Mapear os espaços públicos no lugar em que vive (ruas, praças, escolas, hospitais, prédios da Prefeitura e da Câmara de Vereadores etc.) e identificar suas funções."
+    "obj": "Terra e Universo",
+    "campo": "Características da Terra / Observação do céu / Usos do solo",
+    "hab": "Comparar diferentes amostras de solo do entorno da escola com base em características como cor, textura, cheiro, tamanho das partículas, permeabilidade etc."
   },
   {
-    "code": "EF03HI10",
-    "disc": "História",
+    "code": "EF03CI10",
+    "disc": "Ciências",
     "ano": "3º ano",
-    "obj": "A noção de espaço público e privado",
-    "campo": "A cidade, seus espaços públicos e privados e suas áreas de conservação ambiental",
-    "hab": "Identificar as diferenças entre o espaço doméstico, os espaços públicos e as áreas de conservação ambiental, compreendendo a importância dessa distinção."
+    "obj": "Terra e Universo",
+    "campo": "Características da Terra / Observação do céu / Usos do solo",
+    "hab": "Identificar os diferentes usos do solo (plantação e extração de materiais, dentre outras possibilidades), reconhecendo a importância do solo para a agricultura e para a vida."
   },
   {
-    "code": "EF03HI11",
-    "disc": "História",
-    "ano": "3º ano",
-    "obj": "A noção de espaço público e privado",
-    "campo": "A cidade e suas atividades: trabalho, cultura e lazer",
-    "hab": "Identificar diferenças entre formas de trabalho realizadas na cidade e no campo, considerando também o uso da tecnologia nesses diferentes contextos."
-  },
-  {
-    "code": "EF03HI12",
-    "disc": "História",
-    "ano": "3º ano",
-    "obj": "A noção de espaço público e privado",
-    "campo": "A cidade e suas atividades: trabalho, cultura e lazer",
-    "hab": "Comparar as relações de trabalho e lazer do presente com as de outros tempos e espaços, analisando mudanças e permanências."
-  },
-  {
-    "code": "EF04HI01",
-    "disc": "História",
+    "code": "EF04CI01",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Transformações e permanências nas trajetórias dos grupos humanos",
-    "campo": "A ação das pessoas, grupos sociais e comunidades no tempo e no espaço: nomadismo, agricultura, escrita, navegações, indústria, entre outras",
-    "hab": "Reconhecer a história como resultado da ação do ser humano no tempo e no espaço, com base na identificação de mudanças e permanências ao longo do tempo."
+    "obj": "Matéria e energia",
+    "campo": "Misturas / Transformações reversíveis e não reversíveis",
+    "hab": "Identificar misturas na vida diária, com base em suas propriedades físicas observáveis, reconhecendo sua composição."
   },
   {
-    "code": "EF04HI02",
-    "disc": "História",
+    "code": "EF04CI02",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Transformações e permanências nas trajetórias dos grupos humanos",
-    "campo": "A ação das pessoas, grupos sociais e comunidades no tempo e no espaço...",
-    "hab": "Identificar mudanças e permanências ao longo do tempo, discutindo os sentidos dos grandes marcos da história da humanidade (nomadismo, desenvolvimento da agricultura e do pastoreio, criação da indústria etc.)."
+    "obj": "Matéria e energia",
+    "campo": "Misturas / Transformações reversíveis e não reversíveis",
+    "hab": "Testar e relatar transformações nos materiais do dia a dia quando expostos a diferentes condições (aquecimento, resfriamento, luz e umidade)."
   },
   {
-    "code": "EF04HI03",
-    "disc": "História",
+    "code": "EF04CI03",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Transformações e permanências nas trajetórias dos grupos humanos",
-    "campo": "O passado e o presente: a noção de permanência e as lentas transformações sociais e culturais",
-    "hab": "Identificar as transformações ocorridas na cidade ao longo do tempo e discutir suas interferências nos modos de vida de seus habitantes, tomando como ponto de partida o presente."
+    "obj": "Matéria e energia",
+    "campo": "Misturas / Transformações reversíveis e não reversíveis",
+    "hab": "Concluir que algumas mudanças causadas por aquecimento ou resfriamento são reversíveis (como as mudanças de estado físico da água) e outras não (como o cozimento do ovo, a queima do papel etc.)."
   },
   {
-    "code": "EF04HI04",
-    "disc": "História",
+    "code": "EF04CI04",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Circulação de pessoas, produtos e culturas",
-    "campo": "A circulação de pessoas e as transformações no meio natural",
-    "hab": "Identificar as relações entre os indivíduos e a natureza e discutir o significado do nomadismo e da fixação das primeiras comunidades humanas."
+    "obj": "Vida e evolução",
+    "campo": "Cadeias alimentares simples / Microrganismos",
+    "hab": "Analisar e construir cadeias alimentares simples, reconhecendo a posição ocupada pelos seres vivos nessas cadeias e o papel do Sol como fonte primária de energia na produção de alimentos."
   },
   {
-    "code": "EF04HI05",
-    "disc": "História",
+    "code": "EF04CI05",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Circulação de pessoas, produtos e culturas",
-    "campo": "A circulação de pessoas e as transformações no meio natural",
-    "hab": "Relacionar os processos de ocupação do campo a intervenções na natureza, avaliando os resultados dessas intervenções."
+    "obj": "Vida e evolução",
+    "campo": "Cadeias alimentares simples / Microrganismos",
+    "hab": "Descrever e destacar semelhanças e diferenças entre o ciclo da matéria e o fluxo de energia entre os componentes vivos e não vivos de um ecossistema."
   },
   {
-    "code": "EF04HI06",
-    "disc": "História",
+    "code": "EF04CI06",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Circulação de pessoas, produtos e culturas",
-    "campo": "A invenção do comércio e a circulação de produtos",
-    "hab": "Identificar as transformações ocorridas nos processos de deslocamento das pessoas e mercadorias, analisando as formas de adaptação ou marginalização."
+    "obj": "Vida e evolução",
+    "campo": "Cadeias alimentares simples / Microrganismos",
+    "hab": "Relacionar a participação de fungos e bactérias no processo de decomposição, reconhecendo a importância ambiental desse processo."
   },
   {
-    "code": "EF04HI07",
-    "disc": "História",
+    "code": "EF04CI07",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Circulação de pessoas, produtos e culturas",
-    "campo": "As rotas terrestres, fluviais e marítimas e seus impactos para a formação de cidades e as transformações do meio natural",
-    "hab": "Identificar e descrever a importância dos caminhos terrestres, fluviais e marítimos para a dinâmica da vida comercial."
+    "obj": "Vida e evolução",
+    "campo": "Cadeias alimentares simples / Microrganismos",
+    "hab": "Verificar a participação de microrganismos na produção de alimentos, combustíveis, medicamentos, entre outros."
   },
   {
-    "code": "EF04HI08",
-    "disc": "História",
+    "code": "EF04CI08",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "Circulação de pessoas, produtos e culturas",
-    "campo": "O mundo da tecnologia: a integração de pessoas e as exclusões sociais e culturais",
-    "hab": "Identificar as transformações ocorridas nos meios de comunicação (cultura oral, imprensa, rádio, televisão, cinema, internet e demais tecnologias digitais de informação e comunicação) e discutir seus significados para os diferentes grupos ou estratos sociais."
+    "obj": "Vida e evolução",
+    "campo": "Cadeias alimentares simples / Microrganismos",
+    "hab": "Propor, a partir do conhecimento das formas de transmissão de alguns microrganismos (vírus, bactérias e protozoários), atitudes e medidas adequadas para prevenção de doenças a eles associadas."
   },
   {
-    "code": "EF04HI09",
-    "disc": "História",
+    "code": "EF04CI09",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "As questões históricas relativas às migrações",
-    "campo": "O surgimento da espécie humana no continente africano e sua expansão pelo mundo",
-    "hab": "Identificar as motivações dos processos migratórios em diferentes tempos e espaços e avaliar o papel desempenhado pela migração nas regiões de destino."
+    "obj": "Terra e Universo",
+    "campo": "Pontos cardeais / Calendários, fenômenos cíclicos e cultura",
+    "hab": "Identificar os pontos cardeais, com base no registro de diferentes posições relativas do Sol e da sombra de uma vara (gnômon)."
   },
   {
-    "code": "EF04HI10",
-    "disc": "História",
+    "code": "EF04CI10",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "As questões históricas relativas às migrações",
-    "campo": "Os processos migratórios para a formação do Brasil: os grupos indígenas, a presença portuguesa e a diáspora forçada dos africanos / Os processos migratórios do final do século XIX e início do século XX no Brasil / As dinâmicas internas de migração no Brasil a partir dos anos 1960",
-    "hab": "Analisar diferentes fluxos populacionais e suas contribuições para a formação da sociedade brasileira."
+    "obj": "Terra e Universo",
+    "campo": "Pontos cardeais / Calendários, fenômenos cíclicos e cultura",
+    "hab": "Comparar as indicações dos pontos cardeais resultantes da observação das sombras de uma vara (gnômon) com aquelas obtidas por meio de uma bússola."
   },
   {
-    "code": "EF04HI11",
-    "disc": "História",
+    "code": "EF04CI11",
+    "disc": "Ciências",
     "ano": "4º ano",
-    "obj": "As questões históricas relativas às migrações",
-    "campo": "Os processos migratórios para a formação do Brasil...",
-    "hab": "Analisar, na sociedade em que vive, a existência ou não de mudanças associadas à migração (interna e internacional)."
+    "obj": "Terra e Universo",
+    "campo": "Pontos cardeais / Calendários, fenômenos cíclicos e cultura",
+    "hab": "Associar os movimentos cíclicos da Lua e da Terra a períodos de tempo regulares e ao uso desse conhecimento para a construção de calendários em diferentes culturas."
   },
   {
-    "code": "EF05HI01",
-    "disc": "História",
+    "code": "EF05CI01",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
-    "campo": "O que forma um povo: do nomadismo aos primeiros povos sedentarizados",
-    "hab": "Identificar os processos de formação das culturas e dos povos, relacionando-os com o espaço geográfico ocupado."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
+    "hab": "Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecânicas (dureza, elasticidade etc.), entre outras."
   },
   {
-    "code": "EF05HI02",
-    "disc": "História",
+    "code": "EF05CI02",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
-    "campo": "As formas de organização social e política: a noção de Estado",
-    "hab": "Identificar os mecanismos de organização do poder político com vistas à compreensão da ideia de Estado e/ou de outras formas de ordenação social."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
+    "hab": "Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais)."
   },
   {
-    "code": "EF05HI03",
-    "disc": "História",
+    "code": "EF05CI03",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
-    "campo": "O papel das religiões e da cultura para a formação dos povos antigos",
-    "hab": "Analisar o papel das culturas e das religiões na composição identitária dos povos antigos."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
+    "hab": "Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."
   },
   {
-    "code": "EF05HI04",
-    "disc": "História",
+    "code": "EF05CI04",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
-    "campo": "Cidadania, diversidade cultural e respeito às diferenças sociais, culturais e históricas",
-    "hab": "Associar a noção de cidadania com os princípios de respeito à diversidade, à pluralidade e aos direitos humanos."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
+    "hab": "Identificar os principais usos da água e de outros materiais nas atividades cotidianas para discutir e propor formas sustentáveis de utilização desses recursos."
   },
   {
-    "code": "EF05HI05",
-    "disc": "História",
+    "code": "EF05CI05",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Povos e culturas: meu lugar no mundo e meu grupo social",
-    "campo": "Cidadania, diversidade cultural e respeito às diferenças sociais, culturais e históricas",
-    "hab": "Associar o conceito de cidadania à conquista de direitos dos povos e das sociedades, compreendendo-o como conquista histórica."
+    "obj": "Matéria e energia",
+    "campo": "Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem",
+    "hab": "Construir propostas coletivas para um consumo mais consciente e criar soluções tecnológicas para o descarte adequado e a reutilização ou reciclagem de materiais consumidos na escola e/ou na vida cotidiana."
   },
   {
-    "code": "EF05HI06",
-    "disc": "História",
+    "code": "EF05CI06",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Registros da história: linguagens e culturas",
-    "campo": "As tradições orais e a valorização da memória / O surgimento da escrita e a noção de fonte para a transmissão de saberes, culturas e histórias",
-    "hab": "Comparar o uso de diferentes linguagens e tecnologias no processo de comunicação e avaliar os significados sociais, políticos e culturais atribuídos a elas."
+    "obj": "Vida e evolução",
+    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
+    "hab": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas."
   },
   {
-    "code": "EF05HI07",
-    "disc": "História",
+    "code": "EF05CI07",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Registros da história: linguagens e culturas",
-    "campo": "As tradições orais e a valorização da memória...",
-    "hab": "Identificar os processos de produção, hierarquização e difusão dos marcos de memória e discutir a presença e/ou a ausência de diferentes grupos que compõem a sociedade na nomeação desses marcos de memória."
+    "obj": "Vida e evolução",
+    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
+    "hab": "Justificar a relação entre o funcionamento do sistema circulatório, a distribuição dos nutrientes pelo organismo e a eliminação dos resíduos produzidos."
   },
   {
-    "code": "EF05HI08",
-    "disc": "História",
+    "code": "EF05CI08",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Registros da história: linguagens e culturas",
-    "campo": "As tradições orais e a valorização da memória...",
-    "hab": "Identificar formas de marcação da passagem do tempo em distintas sociedades, incluindo os povos indígenas originários e os povos africanos."
+    "obj": "Vida e evolução",
+    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
+    "hab": "Organizar um cardápio equilibrado com base nas características dos grupos alimentares (nutrientes e calorias) e nas necessidades individuais (atividades realizadas, idade, sexo etc.) para a manutenção da saúde do organismo."
   },
   {
-    "code": "EF05HI09",
-    "disc": "História",
+    "code": "EF05CI09",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Registros da história: linguagens e culturas",
-    "campo": "As tradições orais e a valorização da memória...",
-    "hab": "Comparar pontos de vista sobre temas que impactam a vida cotidiana no tempo presente, por meio do acesso a diferentes fontes, incluindo orais."
+    "obj": "Vida e evolução",
+    "campo": "Nutrição do organismo / Hábitos alimentares / Integração entre os sistemas digestório, respiratório e circulatório",
+    "hab": "Discutir a ocorrência de distúrbios nutricionais (como obesidade, subnutrição etc.) entre crianças e jovens a partir da análise de seus hábitos (tipos e quantidade de alimento ingerido, prática de atividade física etc.)."
   },
   {
-    "code": "EF05HI10",
-    "disc": "História",
+    "code": "EF05CI10",
+    "disc": "Ciências",
     "ano": "5º ano",
-    "obj": "Registros da história: linguagens e culturas",
-    "campo": "Os patrimônios materiais e imateriais da humanidade",
-    "hab": "Inventariar os patrimônios materiais e imateriais da humanidade e analisar mudanças e permanências desses patrimônios ao longo do tempo."
+    "obj": "Terra e Universo",
+    "campo": "Constelações e mapas celestes / Movimento de rotação da Terra / Periodicidade das fases da Lua / Instrumentos óticos",
+    "hab": "Identificar algumas constelações no céu, com o apoio de recursos (como mapas celestes e aplicativos digitais, entre outros), e os períodos do ano em que elas são visíveis no início da noite."
   },
   {
+    "code": "EF05CI11",
+    "disc": "Ciências",
+    "ano": "5º ano",
+    "obj": "Terra e Universo",
+    "campo": "Constelações e mapas celestes / Movimento de rotação da Terra / Periodicidade das fases da Lua / Instrumentos óticos",
+    "hab": "Associar o movimento diário do Sol e das demais estrelas no céu ao movimento de rotação da Terra."
+  },
+  {
+    "code": "EF05CI12",
+    "disc": "Ciências",
+    "ano": "5º ano",
+    "obj": "Terra e Universo",
+    "campo": "Constelações e mapas celestes / Movimento de rotação da Terra / Periodicidade das fases da Lua / Instrumentos óticos",
+    "hab": "Concluir sobre a periodicidade das fases da Lua, com base na observação e no registro das formas aparentes da Lua no céu ao longo de, pelo menos, dois meses."
+  },
+  {
+    "code": "EF05CI13",
+    "disc": "Ciências",
+    "ano": "5º ano",
+    "obj": "Terra e Universo",
+    "campo": "Constelações e mapas celestes / Movimento de rotação da Terra / Periodicidade das fases da Lua / Instrumentos óticos",
+    "hab": "Projetar e construir dispositivos para observação à distância (luneta, periscópio etc.), para observação ampliada de objetos (lupas, microscópios) ou para registro de imagens (máquinas fotográficas) e discutir usos sociais desses dispositivos."
+  },
+{
+    "code": "EF15AR01",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Contextos e práticas",
+    "hab": "Identificar e apreciar formas distintas das artes visuais tradicionais e contemporâneas, cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório imagético."
+  },
+  {
+    "code": "EF15AR02",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Elementos da linguagem",
+    "hab": "Explorar e reconhecer elementos constitutivos das artes visuais (ponto, linha, forma, cor, espaço, movimento etc.)."
+  },
+  {
+    "code": "EF15AR03",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Matrizes estéticas e culturais",
+    "hab": "Reconhecer e analisar a influência de distintas matrizes estéticas e culturais das artes visuais nas manifestações artísticas das culturas locais, regionais e nacionais."
+  },
+  {
+    "code": "EF15AR04",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Materialidades",
+    "hab": "Experimentar diferentes formas de expressão artística (desenho, pintura, colagem, quadrinhos, dobradura, escultura, modelagem, instalação, vídeo, fotografia etc.), fazendo uso sustentável de materiais, instrumentos, recursos e técnicas convencionais e não convencionais."
+  },
+  {
+    "code": "EF15AR05",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Processos de criação",
+    "hab": "Experimentar a criação em artes visuais de modo individual, coletivo e colaborativo, explorando diferentes espaços da escola e da comunidade."
+  },
+  {
+    "code": "EF15AR06",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Processos de criação",
+    "hab": "Dialogar sobre a sua criação e as dos colegas, para alcançar sentidos plurais."
+  },
+  {
+    "code": "EF15AR07",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes visuais",
+    "campo": "Sistemas da linguagem",
+    "hab": "Reconhecer algumas categorias do sistema das artes visuais (museus, galerias, instituições, artistas, artesãos, curadores etc.)."
+  },
+  {
+    "code": "EF15AR08",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Dança",
+    "campo": "Contextos e práticas",
+    "hab": "Experimentar e apreciar formas distintas de manifestações da dança presentes em diferentes contextos, cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório corporal."
+  },
+  {
+    "code": "EF15AR09",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Dança",
+    "campo": "Elementos da linguagem",
+    "hab": "Estabelecer relações entre as partes do corpo e destas com o todo corporal na construção do movimento dançado."
+  },
+  {
+    "code": "EF15AR10",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Dança",
+    "campo": "Elementos da linguagem",
+    "hab": "Experimentar diferentes formas de orientação no espaço (deslocamentos, planos, direções, caminhos etc.) e ritmos de movimento (lento, moderado e rápido) na construção do movimento dançado."
+  },
+  {
+    "code": "EF15AR11",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Dança",
+    "campo": "Processos de criação",
+    "hab": "Criar e improvisar movimentos dançados de modo individual, coletivo e colaborativo, considerando os aspectos estruturais, dinâmicos e expressivos dos elementos constitutivos do movimento, com base nos códigos de dança."
+  },
+  {
+    "code": "EF15AR12",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Dança",
+    "campo": "Processos de criação",
+    "hab": "Discutir, com respeito e sem preconceito, as experiências pessoais e coletivas em dança vivenciadas na escola, como fonte para a construção de vocabulários e repertórios próprios."
+  },
+  {
+    "code": "EF15AR13",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Música",
+    "campo": "Contexto e práticas",
+    "hab": "Identificar e apreciar criticamente diversas formas e gêneros de expressão musical, reconhecendo e analisando os usos e as funções da música em diversos contextos de circulação, em especial, aqueles da vida cotidiana."
+  },
+  {
+    "code": "EF15AR14",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Música",
+    "campo": "Elementos da linguagem",
+    "hab": "Perceber e explorar os elementos constitutivos da música (altura, intensidade, timbre, melodia, ritmo etc.), por meio de jogos, brincadeiras, canções e práticas diversas de composição/criação, execução e apreciação musical."
+  },
+  {
+    "code": "EF15AR15",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Música",
+    "campo": "Materialidades",
+    "hab": "Explorar fontes sonoras diversas, como as existentes no próprio corpo (palmas, voz, percussão corporal), na natureza e em objetos cotidianos, reconhecendo os elementos constitutivos da música e as características de instrumentos musicais variados."
+  },
+  {
+    "code": "EF15AR16",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Música",
+    "campo": "Notação e registro musical",
+    "hab": "Explorar diferentes formas de registro musical não convencional (representação gráfica de sons, partituras criativas etc.), bem como procedimentos e técnicas de registro em áudio e audiovisual, e reconhecer a notação musical convencional."
+  },
+  {
+    "code": "EF15AR17",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Música",
+    "campo": "Processos de criação",
+    "hab": "Experimentar improvisações, composições e sonorização de histórias, entre outros, utilizando vozes, sons corporais e/ou instrumentos musicais convencionais ou não convencionais, de modo individual, coletivo e colaborativo."
+  },
+  {
+    "code": "EF15AR18",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Teatro",
+    "campo": "Contextos e práticas",
+    "hab": "Reconhecer e apreciar formas distintas de manifestações do teatro presentes em diferentes contextos, aprendendo a ver e a ouvir histórias dramatizadas e cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório ficcional."
+  },
+  {
+    "code": "EF15AR19",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Teatro",
+    "campo": "Elementos da linguagem",
+    "hab": "Descobrir teatralidades na vida cotidiana, identificando elementos teatrais (variadas entonações de voz, diferentes fisicalidades, diversidade de personagens e narrativas etc.)."
+  },
+  {
+    "code": "EF15AR20",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Teatro",
+    "campo": "Processos de criação",
+    "hab": "Experimentar o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais."
+  },
+  {
+    "code": "EF15AR21",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Teatro",
+    "campo": "Processos de criação",
+    "hab": "Exercitar a imitação e o faz de conta, ressignificando objetos e fatos e experimentando-se no lugar do outro, ao compor e encenar acontecimentos cênicos, por meio de músicas, imagens, textos ou outros pontos de partida, de forma intencional e reflexiva."
+  },
+  {
+    "code": "EF15AR22",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Teatro",
+    "campo": "Processos de criação",
+    "hab": "Experimentar possibilidades criativas de movimento e de voz na criação de um personagem teatral, discutindo estereótipos."
+  },
+  {
+    "code": "EF15AR23",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes integradas",
+    "campo": "Processos de criação",
+    "hab": "Reconhecer e experimentar, em projetos temáticos, as relações processuais entre diversas linguagens artísticas."
+  },
+  {
+    "code": "EF15AR24",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes integradas",
+    "campo": "Matrizes estéticas culturais",
+    "hab": "Caracterizar e experimentar brinquedos, brincadeiras, jogos, danças, canções e histórias de diferentes matrizes estéticas e culturais."
+  },
+  {
+    "code": "EF15AR25",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes integradas",
+    "campo": "Patrimônio cultural",
+    "hab": "Conhecer e valorizar o patrimônio cultural, material e imaterial, de culturas diversas, em especial a brasileira, incluindo-se suas matrizes indígenas, africanas e europeias, de diferentes épocas, favorecendo a construção de vocabulário e repertório relativos às diferentes linguagens artísticas."
+  },
+  {
+    "code": "EF15AR26",
+    "disc": "Arte",
+    "ano": "1º ao 5º ano",
+    "obj": "Artes integradas",
+    "campo": "Arte e tecnologia",
+    "hab": "Explorar diferentes tecnologias e recursos digitais (multimeios, animações, jogos eletrônicos, gravações em áudio e vídeo, fotografia, softwares etc.) nos processos de criação artística."
+  },
+{
+    "code": "EF12EF01",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional",
+    "hab": "Experimentar, fruir e recriar diferentes brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional, reconhecendo e respeitando as diferenças individuais de desempenho dos colegas."
+  },
+  {
+    "code": "EF12EF02",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional",
+    "hab": "Explicar, por meio de múltiplas linguagens (corporal, visual, oral e escrita), as brincadeiras e os jogos populares do contexto comunitário e regional, reconhecendo e valorizando a importância desses jogos e brincadeiras para suas culturas de origem."
+  },
+  {
+    "code": "EF12EF03",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional",
+    "hab": "Planejar e utilizar estratégias para resolver desafios de brincadeiras e jogos populares do contexto comunitário e regional, com base no reconhecimento das características dessas práticas."
+  },
+  {
+    "code": "EF12EF04",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional",
+    "hab": "Colaborar na proposição e na produção de alternativas para a prática, em outros momentos e espaços, de brincadeiras e jogos e demais práticas corporais tematizadas na escola, produzindo textos (orais, escritos, audiovisuais) para divulgá-las na escola e na comunidade."
+  },
+  {
+    "code": "EF12EF05",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Esportes",
+    "campo": "Esportes de marca / Esportes de precisão",
+    "hab": "Experimentar e fruir, prezando pelo trabalho coletivo e pelo protagonismo, a prática de esportes de marca e de precisão, identificando os elementos comuns a esses esportes."
+  },
+  {
+    "code": "EF12EF06",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Esportes",
+    "campo": "Esportes de marca / Esportes de precisão",
+    "hab": "Discutir a importância da observação das normas e das regras dos esportes de marca e de precisão para assegurar a integridade própria e as dos demais participantes."
+  },
+  {
+    "code": "EF12EF07",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Ginásticas",
+    "campo": "Ginástica geral",
+    "hab": "Experimentar, fruir e identificar diferentes elementos básicos da ginástica (equilíbrios, saltos, giros, rotações, acrobacias, com e sem materiais) e da ginástica geral, de forma individual e em pequenos grupos, adotando procedimentos de segurança."
+  },
+  {
+    "code": "EF12EF08",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Ginásticas",
+    "campo": "Ginástica geral",
+    "hab": "Planejar e utilizar estratégias para a execução de diferentes elementos básicos da ginástica e da ginástica geral."
+  },
+  {
+    "code": "EF12EF09",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Ginásticas",
+    "campo": "Ginástica geral",
+    "hab": "Participar da ginástica geral, identificando as potencialidades e os limites do corpo, e respeitando as diferenças individuais e de desempenho corporal."
+  },
+  {
+    "code": "EF12EF10",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Ginásticas",
+    "campo": "Ginástica geral",
+    "hab": "Descrever, por meio de múltiplas linguagens (corporal, oral, escrita e audiovisual), as características dos elementos básicos da ginástica e da ginástica geral, identificando a presença desses elementos em distintas práticas corporais."
+  },
+  {
+    "code": "EF12EF11",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Danças",
+    "campo": "Danças do contexto comunitário e regional",
+    "hab": "Experimentar e fruir diferentes danças do contexto comunitário e regional (rodas cantadas, brincadeiras rítmicas e expressivas), e recriá-las, respeitando as diferenças individuais e de desempenho corporal."
+  },
+  {
+    "code": "EF12EF12",
+    "disc": "Educação Física",
+    "ano": "1º e 2º anos",
+    "obj": "Danças",
+    "campo": "Danças do contexto comunitário e regional",
+    "hab": "Identificar os elementos constitutivos (ritmo, espaço, gestos) das danças do contexto comunitário e regional, valorizando e respeitando as manifestações de diferentes culturas."
+  },
+  {
+    "code": "EF35EF01",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos populares do Brasil e do mundo / Brincadeiras e jogos de matriz indígena e africana",
+    "hab": "Experimentar e fruir brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e recriá-los, valorizando a importância desse patrimônio histórico cultural."
+  },
+  {
+    "code": "EF35EF02",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos populares do Brasil e do mundo / Brincadeiras e jogos de matriz indígena e africana",
+    "hab": "Planejar e utilizar estratégias para possibilitar a participação segura de todos os alunos em brincadeiras e jogos populares do Brasil e de matriz indígena e africana."
+  },
+  {
+    "code": "EF35EF03",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos populares do Brasil e do mundo / Brincadeiras e jogos de matriz indígena e africana",
+    "hab": "Descrever, por meio de múltiplas linguagens (corporal, oral, escrita, audiovisual), as brincadeiras e os jogos populares do Brasil e de matriz indígena e africana, explicando suas características e a importância desse patrimônio histórico cultural na preservação das diferentes culturas."
+  },
+  {
+    "code": "EF35EF04",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Brincadeiras e jogos",
+    "campo": "Brincadeiras e jogos populares do Brasil e do mundo / Brincadeiras e jogos de matriz indígena e africana",
+    "hab": "Recriar, individual e coletivamente, e experimentar, na escola e fora dela, brincadeiras e jogos populares do Brasil e do mundo, incluindo those of matriz indígena e africana, e demais práticas corporais tematizadas na escola, adequando-as aos espaços públicos disponíveis."
+  },
+  {
+    "code": "EF35EF05",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Esportes",
+    "campo": "Esportes de campo e taco / Esportes de rede/parede / Esportes de invasão",
+    "hab": "Experimentar e fruir diversos tipos de esportes de campo e taco, rede/parede e invasão, identificando seus elementos comuns e criando estratégias individuais e coletivas básicas para sua execução, prezando pelo trabalho coletivo e pelo protagonismo."
+  },
+  {
+    "code": "EF35EF06",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Esportes",
+    "campo": "Esportes de campo e taco / Esportes de rede/parede / Esportes de invasão",
+    "hab": "Diferenciar os conceitos de jogo e esporte, identificando as características que os constituem na contemporaneidade e suas manifestações (profissional e comunitária/lazer)."
+  },
+  {
+    "code": "EF35EF07",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Ginásticas",
+    "campo": "Ginástica geral",
+    "hab": "Experimentar e fruir, de forma coletiva, combinações de diferentes elementos da ginástica geral (equilíbrios, saltos, giros, rotações, acrobacias, com e sem materiais), propondo coreografias com diferentes temas do cotidiano."
+  },
+  {
+    "code": "EF35EF08",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Ginásticas",
+    "campo": "Ginástica geral",
+    "hab": "Planejar e utilizar estratégias para resolver desafios na execução de elementos básicos de apresentações coletivas de ginástica geral, reconhecendo as potencialidades e os limites do corpo e adotando procedimentos de segurança."
+  },
+  {
+    "code": "EF35EF09",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Danças",
+    "campo": "Danças do Brasil e do mundo / Danças de matriz indígena e africana",
+    "hab": "Experimentar, recriar e fruir danças populares do Brasil e do mundo e danças de matriz indígena e africana, valorizando e respeitando os diferentes sentidos e significados dessas danças em suas culturas de origem."
+  },
+  {
+    "code": "EF35EF10",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Danças",
+    "campo": "Danças do Brasil e do mundo / Danças de matriz indígena e africana",
+    "hab": "Comparar e identificar os elementos constitutivos comuns e diferentes (ritmo, espaço, gestos) em danças populares do Brasil e do mundo e danças de matriz indígena e africana."
+  },
+  {
+    "code": "EF35EF11",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Danças",
+    "campo": "Danças do Brasil e do mundo / Danças de matriz indígena e africana",
+    "hab": "Formular e utilizar estratégias para a execução de elementos constitutivos das danças populares do Brasil e do mundo, e das danças de matriz indígena e africana."
+  },
+  {
+    "code": "EF35EF12",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Danças",
+    "campo": "Danças do Brasil e do mundo / Danças de matriz indígena e africana",
+    "hab": "Identificar situações de injustiça e preconceito geradas e/ou presentes no contexto das danças e demais práticas corporais e discutir alternativas para superá-las."
+  },
+  {
+    "code": "EF35EF13",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Lutas",
+    "campo": "Lutas do contexto comunitário e regional / Lutas de matriz indígena e africana",
+    "hab": "Experimentar, fruir e recriar diferentes lutas presentes no contexto comunitário e regional e lutas de matriz indígena e africana."
+  },
+  {
+    "code": "EF35EF14",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Lutas",
+    "campo": "Lutas do contexto comunitário e regional / Lutas de matriz indígena e africana",
+    "hab": "Planejar e utilizar estratégias básicas das lutas do contexto comunitário e regional e lutas de matriz indígena e africana experimentadas, respeitando o colega como oponente e as normas de segurança."
+  },
+  {
+    "code": "EF35EF15",
+    "disc": "Educação Física",
+    "ano": "3º ao 5º ano",
+    "obj": "Lutas",
+    "campo": "Lutas do contexto comunitário e regional / Lutas de matriz indígena e africana",
+    "hab": "Identificar as características das lutas do contexto comunitário e regional e lutas de matriz indígena e africana, reconhecendo as diferenças entre lutas e brigas e entre lutas e as demais práticas corporais."
+  },
+{
     "code": "EF01ER01",
     "disc": "Ensino Religioso",
     "ano": "1º ano",
@@ -3263,4 +4695,4 @@
     "campo": "Ancestralidade e tradição oral",
     "hab": "Reconhecer, em textos orais, ensinamentos relacionados a modos de ser e viver."
   }
-]
+}
