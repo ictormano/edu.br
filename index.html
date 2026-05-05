@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Buscador BNCC - Ensino Fundamental I</title>
+<!-- Adicionada a biblioteca Flaticon para renderizar o ícone -->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 <style>
 :root { --google-blue: #4285f4; --google-red: #ea4335; --google-yellow: #fbbc05; --google-green: #34a853; --text-main: #202124; --text-muted: #5f6368; --border: #dfe1e5; --shadow: 0 2px 10px rgba(32,33,36,.28); --bg: #ffffff; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -28,7 +30,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helve
 .input-field { flex: 1; border: none; outline: none; font-size: 28px; color: var(--text-main); background: transparent; font-family: 'Courier New', Courier, monospace; text-transform: uppercase; }
 .input-field::placeholder { color: var(--text-muted); font-family: -apple-system, sans-serif; text-transform: none; }
 
-/* Distância ajustada: padding (28) + icon (35) + margin (21) = 84px */
 .ghost-text { position: absolute; left: 84px; top: 50%; transform: translateY(-50%); pointer-events: none; font-family: 'Courier New', Courier, monospace; font-size: 28px; color: transparent; white-space: pre; }
 .ghost-text span { color: #bdc1c6; }
 
@@ -52,9 +53,15 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helve
 .tag-disc { background: #e8f0fe; color: #1967d2; border-color: transparent; }
 .tag-ano { background: #fce8e6; color: #c5221f; border-color: transparent; }
 
-.rc-label { font-size: 21px; font-weight: bold; text-transform: uppercase; color: var(--text-muted); margin-bottom: 7px; margin-top: 28px; }
+/* Alterações no rc-label para suportar o botão de copiar na mesma linha */
+.rc-label { display: flex; align-items: center; justify-content: space-between; font-size: 21px; font-weight: bold; text-transform: uppercase; color: var(--text-muted); margin-bottom: 7px; margin-top: 28px; }
 .rc-topic { font-size: 31px; font-weight: 400; color: var(--google-blue); margin-bottom: 14px; line-height: 1.4; }
 .rc-text { font-size: 26px; line-height: 1.58; color: #3c4043; margin-bottom: 14px; }
+
+/* Estilo do botão de copiar */
+.copy-btn { background: none; border: none; cursor: pointer; color: var(--google-blue); font-size: 24px; padding: 5px; border-radius: 5px; transition: background 0.2s, transform 0.1s; display: flex; align-items: center; justify-content: center; }
+.copy-btn:hover { background: #e8f0fe; }
+.copy-btn:active { transform: scale(0.9); }
 </style>
 </head>
 <body>
@@ -81,20 +88,29 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helve
       </div>
       <div class="rc-tags" id="rcTags"></div>
       
-      <div class="rc-label">Unidade Temática - (Tema)</div>
+      <!-- Injeção dos botões de copiar separados -->
+      <div class="rc-label">
+        <span>Unidade Temática - (Tema)</span>
+        <button class="copy-btn" onclick="copyContent('rcAssunto')" title="Copiar Unidade Temática"><i class="fi fi-rr-copy-alt"></i></button>
+      </div>
       <div class="rc-topic" id="rcAssunto"></div>
       
-      <div class="rc-label">Assunto / Conteúdo</div>
+      <div class="rc-label">
+        <span>Assunto / Conteúdo</span>
+        <button class="copy-btn" onclick="copyContent('rcObj')" title="Copiar Assunto/Conteúdo"><i class="fi fi-rr-copy-alt"></i></button>
+      </div>
       <div class="rc-text" id="rcObj"></div>
       
-      <div class="rc-label">Habilidade</div>
+      <div class="rc-label">
+        <span>Habilidade</span>
+        <button class="copy-btn" onclick="copyContent('rcHab')" title="Copiar Habilidade"><i class="fi fi-rr-copy-alt"></i></button>
+      </div>
       <div class="rc-text" id="rcHab" style="margin-bottom:0;"></div>
     </div>
   </div>
 </div>
 
 <script>
-// Base de dados 100% formatada com os campos Assunto separados do Objeto.
 const DATA = [
 {"code":"EF15LP01","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Leitura/escuta","obj":"Reconstrução das condições de produção e recepção de textos","hab":"Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam."},
 {"code":"EF15LP02","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Leitura/escuta","obj":"Estratégia de leitura","hab":"Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas."},
@@ -107,7 +123,7 @@ const DATA = [
 {"code":"EF15LP09","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Oralidade","obj":"Oralidade pública/Intercâmbio conversacional em sala de aula","hab":"Expressar-se em situações de intercâmbio oral com clareza, preocupando-se em ser compreendido pelo interlocutor e usando a palavra com tom de voz audível, boa articulação e ritmo adequado."},
 {"code":"EF15LP10","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Oralidade","obj":"Escuta atenta","hab":"Escutar, com atenção, falas de professores e colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."},
 {"code":"EF15LP11","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Oralidade","obj":"Características da conversação espontânea","hab":"Reconhecer características da conversação espontânea presencial, respeitando os turnos de fala, selecionando e utilizando, durante a conversação, formas de tratamento adequadas, de acordo com a situação e a posição do interlocutor."},
-{"code":"EF15LP12","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Oralidade","obj":"Aspectos não linguísticos (paralinguísticos) no ato da fala","hab":"Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."},
+{"code":"EF15LP12","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Oralidade","obj":"Aspectos não linguísticos (paralinguísticos) no ato da fala","hab":"Atribuir significado a aspects não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."},
 {"code":"EF15LP13","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Oralidade","obj":"Relato oral/Registro formal e informal","hab":"Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.)."},
 {"code":"EF15LP14","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Leitura/escuta","obj":"Leitura de imagens em narrativas visuais","hab":"Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias)."},
 {"code":"EF15LP15","disc":"Língua Portuguesa","ano":"1º ao 5º ano","assunto":"Leitura/escuta","obj":"Formação do leitor literário","hab":"Reconhecer que os textos literários fazem parte do mundo do imaginário e apresentam uma dimensão lúdica, de encantamento, valorizando-os, em sua diversidade cultural, como patrimônio artístico da humanidade."},
@@ -218,7 +234,7 @@ const DATA = [
 {"code":"EF03LP07","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Análise linguística/semiótica","obj":"Pontuação","hab":"Identificar a função na leitura e usar na escrita ponto final, ponto de interrogação, ponto de exclamação e, em diálogos (discurso direto), dois-pontos e travessão."},
 {"code":"EF04LP05","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Análise linguística/semiótica","obj":"Pontuação","hab":"Identificar a função na leitura e usar, adequadamente, na escrita ponto final, de interrogação, de exclamação, dois-pontos e travessão em diálogos (discurso direto), vírgula em enumerações e em separação de vocativo e de aposto."},
 {"code":"EF05LP04","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Pontuação","hab":"Diferenciar, na leitura de textos, vírgula, ponto e vírgula, dois-pontos e reconhecer, na leitura de textos, o efeito de sentido que decorre do uso de reticências, aspas, parênteses."},
-{"code":"EF05LP05","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Morfologia/Morfossintaxe","hab":"Identificar a expressão de presente, passado e futuro em tempos verbais do modo indicativo."},
+{"code":"EF05LP05","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Morfologia/Morfossintaxe","hab":"Identificar a expression de presente, passado e futuro em tempos verbais do modo indicativo."},
 {"code":"EF03LP08","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Análise linguística/semiótica","obj":"Morfologia/Morfossintaxe","hab":"Identificar e diferenciar, em textos, substantivos e verbos e suas funções na oração: agente, ação, objeto da ação."},
 {"code":"EF04LP06","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Análise linguística/semiótica","obj":"Morfologia/Morfossintaxe","hab":"Identificar em textos e usar na produção textual a concordância entre substantivo ou pronome pessoal e verbo (concordância verbal)."},
 {"code":"EF05LP06","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Morfologia/Morfossintaxe","hab":"Flexionar, adequadamente, na escrita e na oralidade, os verbos em concordância com pronomes pessoais/nomes sujeitos da oração."},
@@ -246,7 +262,7 @@ const DATA = [
 {"code":"EF03LP16","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição do texto","hab":"Identificar e reproduzir, em textos injuntivos instrucionais (receitas, instruções de montagem, digitais ou impressos), a formatação própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e a diagramação específica dos textos desses gêneros (lista de ingredientes ou materiais e instruções de execução – \"modo de fazer\")."},
 {"code":"EF04LP13","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição do texto","hab":"Identificar e reproduzir, em textos injuntivos instrucionais (instruções de jogos digitais ou impressos), a formatação própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e formato específico dos textos orais ou escritos desses gêneros (lista/apresentação de materiais e instruções/passos de jogo)."},
 {"code":"EF05LP14","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição do texto","hab":"Identificar e reproduzir, em textos de resenha crítica de brinquedos ou livros de literatura infantil, a formatação própria desses textos (apresentação e avaliação do produto)."},
-{"code":"EF03LP17","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição do texto","hab":"Identificar e reproduzir, em gêneros epistolares e diários, a formatação própria desses textos (relatos de acontecimentos, expressão de vivências, emoções, opiniões ou críticas) e a diagramação específica dos textos desses gêneros (data, saudação, corpo do texto, despedida, assinatura)."},
+{"code":"EF03LP17","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição do texto","hab":"Identificar e reproduzir, em gêneros epistolares e diários, a formatação própria desses textos (relatos de acontecimentos, expression de vivências, emoções, opiniões ou críticas) e a diagramação específica dos textos desses gêneros (data, saudação, corpo do texto, despedida, assinatura)."},
 {"code":"EF03LP18","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Leitura/escuta","obj":"Compreensão em leitura","hab":"Ler e compreender, com autonomia, cartas dirigidas a veículos da mídia impressa ou digital (cartas de leitor e de reclamação a jornais, revistas) e notícias, dentre outros gêneros do campo jornalístico, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto."},
 {"code":"EF04LP14","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Leitura/escuta","obj":"Compreensão em leitura","hab":"Identificar, em notícias, fatos, participantes, local e momento/tempo da ocorrência do fato noticiado."},
 {"code":"EF05LP15","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Leitura/escuta","obj":"Compreensão em leitura","hab":"Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto."},
@@ -255,7 +271,7 @@ const DATA = [
 {"code":"EF05LP16","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Leitura/escuta","obj":"Compreensão em leitura","hab":"Comparar informações sobre um mesmo fato veiculadas em diferentes mídias e concluir sobre qual é mais confiável e por quê."},
 {"code":"EF03LP20","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Produção de textos","obj":"Escrita colaborativa","hab":"Produzir cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), dentre outros gêneros do campo político-cidadão, com opiniões e críticas, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto."},
 {"code":"EF04LP16","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Produção de textos","obj":"Escrita colaborativa","hab":"Produzir notícias sobre fatos ocorridos no universo escolar, digitais ou impressas, para o jornal da escola, noticiando os fatos e seus atores e comentando decorrências, de acordo com as convenções do gênero notícia e considerando a situação comunicativa e o tema/assunto do texto."},
-{"code":"EF05LP17","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Produção de textos","obj":"Escrita colaborativa","hab":"Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto do texto."},
+{"code":"EF05LP17","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Produção de textos","obj":"Escrita colaborativa","hab":"Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situation comunicativa e o tema/assunto do texto."},
 {"code":"EF03LP21","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Produção de textos","obj":"Escrita colaborativa","hab":"Produzir anúncios publicitários, textos de campanhas de conscientização destinados ao público infantil, observando os recursos de persuasão utilizados nos textos publicitários e de propaganda (cores, imagens, slogan, escolha de palavras, jogo de palavras, tamanho e tipo de letras, diagramação)."},
 {"code":"EF35LP15","disc":"Língua Portuguesa","ano":"3º ao 5º ano","assunto":"Produção de textos","obj":"Escrita colaborativa","hab":"Opinar e defender ponto de vista sobre tema polêmico relacionado a situações vivenciadas na escola e/ou na comunidade, utilizando registro formal e estrutura adequada à argumentação, considerando a situação comunicativa e o tema/assunto do texto."},
 {"code":"EF03LP22","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Oralidade","obj":"Planejamento e produção de texto","hab":"Planejar e produzir, em colaboração com os colegas, telejornal para público infantil com algumas notícias e textos de campanhas que possam ser repassados oralmente ou em meio digital, em áudio ou vídeo, considerando a situação comunicativa, a organização específica da fala nesses gêneros e o tema/assunto/finalidade dos textos."},
@@ -265,7 +281,7 @@ const DATA = [
 {"code":"EF35LP16","disc":"Língua Portuguesa","ano":"3º ao 5º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição dos textos","hab":"Identificar e reproduzir, em notícias, manchetes, lides e corpo de notícias simples para público infantil e cartas de reclamação (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais."},
 {"code":"EF03LP23","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição dos textos","hab":"Analisar o uso de adjetivos em cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), digitais ou impressas."},
 {"code":"EF05LP20","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição dos textos","hab":"Analisar a validade e força de argumentos em argumentações sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos."},
-{"code":"EF04LP18","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição dos textos","hab":"Analisar o padrão entonacional e a expressão facial e corporal de âncoras de jornais radiofônicos ou televisivos e de entrevistadores/entrevistados."},
+{"code":"EF04LP18","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição dos textos","hab":"Analisar o padrão entonacional e a expression facial e corporal de âncoras de jornais radiofônicos ou televisivos e de entrevistadores/entrevistados."},
 {"code":"EF05LP21","disc":"Língua Portuguesa","ano":"5º ano","assunto":"Análise linguística/semiótica","obj":"Forma de composição dos textos","hab":"Analisar o padrão entonacional, a expressão facial e corporal e as escolhas de variedade e registro linguísticos de vloggers de vlogs opinativos ou argumentativos."},
 {"code":"EF03LP24","disc":"Língua Portuguesa","ano":"3º ano","assunto":"Leitura/escuta","obj":"Compreensão em leitura","hab":"Ler/ouvir e compreender, com autonomia, relatos de observações e de pesquisas em fontes de informações, considerando a situação comunicativa e o tema/assunto do texto."},
 {"code":"EF04LP19","disc":"Língua Portuguesa","ano":"4º ano","assunto":"Leitura/escuta","obj":"Compreensão em leitura","hab":"Ler e compreender textos expositivos de divulgação científica para crianças, considerando a situação comunicativa e o tema/assunto do texto."},
@@ -311,7 +327,7 @@ const DATA = [
 {"code":"EF15AR07","disc":"Arte","ano":"1º ao 5º ano","assunto":"Artes visuais","obj":"Sistemas da linguagem","hab":"Reconhecer algumas categorias do sistema das artes visuais (museus, galerias, instituições, artistas, artesãos, curadores etc.)."},
 {"code":"EF15AR08","disc":"Arte","ano":"1º ao 5º ano","assunto":"Dança","obj":"Contextos e práticas","hab":"Experimentar e apreciar formas distintas de manifestações da dança presentes em diferentes contextos, cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório corporal."},
 {"code":"EF15AR09","disc":"Arte","ano":"1º ao 5º ano","assunto":"Dança","obj":"Elementos da linguagem","hab":"Estabelecer relações entre as partes do corpo e destas com o todo corporal na construção do movimento dançado."},
-{"code":"EF15AR10","disc":"Arte","ano":"1º ao 5º ano","assunto":"Dança","obj":"Elementos da linguagem","hab":"Experimentar diferentes formas de orientação no espaço (deslocamentos, planos, direções, caminhos etc.) e ritmos de movimento (lento, moderado e rápido) na construção do movimento dançado."},
+{"code":"EF15AR10","disc":"Arte","ano":"1º ao 5º ano","assunto":"Dança","obj":"Elementos da linguagem","hab":"Experimentar diferentes formas de orientation no espaço (deslocamentos, planos, direções, caminhos etc.) e ritmos de movimento (lento, moderado e rápido) na construção do movimento dançado."},
 {"code":"EF15AR11","disc":"Arte","ano":"1º ao 5º ano","assunto":"Dança","obj":"Processos de criação","hab":"Criar e improvisar movimentos dançados de modo individual, coletivo e colaborativo, considerando os aspectos estruturais, dinâmicos e expressivos dos elementos constitutivos do movimento, com base nos códigos de dança."},
 {"code":"EF15AR12","disc":"Arte","ano":"1º ao 5º ano","assunto":"Dança","obj":"Processos de criação","hab":"Discutir, com respeito e sem preconceito, as experiências pessoais e coletivas em dança vivenciadas na escola, como fonte para a construção de vocabulários e repertórios próprios."},
 {"code":"EF15AR13","disc":"Arte","ano":"1º ao 5º ano","assunto":"Música","obj":"Contexto e práticas","hab":"Identificar e apreciar criticamente diversas formas e gêneros de expressão musical, reconhecendo e analisando os usos e as funções da música em diversos contextos de circulação, em especial, aqueles da vida cotidiana."},
@@ -516,7 +532,7 @@ const DATA = [
 {"code":"EF04CI09","disc":"Ciências","ano":"4º ano","assunto":"Terra e Universo","obj":"Pontos cardeais / Calendários, fenômenos cíclicos e cultura","hab":"Identificar os pontos cardeais, com base no registro de diferentes posições relativas do Sol e da sombra de uma vara (gnômon)."},
 {"code":"EF04CI10","disc":"Ciências","ano":"4º ano","assunto":"Terra e Universo","obj":"Pontos cardeais / Calendários, fenômenos cíclicos e cultura","hab":"Comparar as indicações dos pontos cardeais resultantes da observação das sombras de uma vara (gnômon) com aquelas obtidas por meio de uma bússola."},
 {"code":"EF04CI11","disc":"Ciências","ano":"4º ano","assunto":"Terra e Universo","obj":"Pontos cardeais / Calendários, fenômenos cíclicos e cultura","hab":"Associar os movimentos cíclicos da Lua e da Terra a períodos de tempo regulares e ao uso desse conhecimento para a construção de calendários em diferentes culturas."},
-{"code":"EF05CI01","disc":"Ciências","ano":"5º ano","assunto":"Matéria e energia","obj":"Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem","hab":"Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecânicas (dureza, elasticidade etc.), entre outras."},
+{"code":"EF05CI01","disc":"Ciências","ano":"5º ano","assunto":"Matéria e energia","obj":"Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem","hab":"Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecicas (dureza, elasticidade etc.), entre outras."},
 {"code":"EF05CI02","disc":"Ciências","ano":"5º ano","assunto":"Matéria e energia","obj":"Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem","hab":"Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais)."},
 {"code":"EF05CI03","disc":"Ciências","ano":"5º ano","assunto":"Matéria e energia","obj":"Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem","hab":"Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."},
 {"code":"EF05CI04","disc":"Ciências","ano":"5º ano","assunto":"Matéria e energia","obj":"Propriedades físicas dos materiais / Ciclo hidrológico / Consumo consciente / Reciclagem","hab":"Identificar os principais usos da água e de outros materiais nas atividades cotidianas para discutir e propor formas sustentáveis de utilização desses recursos."},
@@ -600,7 +616,7 @@ const DATA = [
 {"code":"EF02HI05","disc":"História","ano":"2º ano","assunto":"A comunidade e seus registros","obj":"Formas de registrar e narrar histórias (marcos de memória materiais e imateriais)","hab":"Selecionar objetos e documentos pessoais e de grupos próximos ao seu convívio e compreender sua função, seu uso e seu significado."},
 {"code":"EF02HI06","disc":"História","ano":"2º ano","assunto":"A comunidade e seus registros","obj":"O tempo como medida","hab":"Identificar e organizar, temporalmente, fatos da vida cotidiana, usando noções relacionadas ao tempo (antes, durante, ao mesmo tempo e depois)."},
 {"code":"EF02HI07","disc":"História","ano":"2º ano","assunto":"A comunidade e seus registros","obj":"O tempo como medida","hab":"Identificar e utilizar diferentes marcadores do tempo presentes na comunidade, como relógio e calendário."},
-{"code":"EF02HI08","disc":"História","ano":"2º ano","assunto":"As formas de registrar as experiências da comunidade","obj":"As fontes: relatos orais, objetos, imagens (pinturas, fotografias, vídeos), músicas, escrita, tecnologias digitais de informação e comunicação e inscrições nas paredes, ruas e espaços sociais","hab":"Compilar histórias da família e/ou da comunidade registradas em diferentes fontes."},
+{"code":"EF02HI08","disc":"História","ano":"2º ano","assunto":"As formas de registrar as experiências da comunidade","obj":"As fontes: relatos orais, objetos, imagens (pinturas, fotografias, vídeos), músicas, escrita, technologies digitais de informação e comunicação e inscrições nas paredes, ruas e espaços sociais","hab":"Compilar histórias da família e/ou da comunidade registradas em diferentes fontes."},
 {"code":"EF02HI09","disc":"História","ano":"2º ano","assunto":"As formas de registrar as experiências da comunidade","obj":"As fontes: relatos orais, objetos, imagens...","hab":"Identificar objetos e documentos pessoais que remetam à própria experiência no âmbito da família e/ou da comunidade, discutindo as razões pelas quais alguns objetos são preservados e outros são descartados."},
 {"code":"EF02HI10","disc":"História","ano":"2º ano","assunto":"O trabalho e a sustentabilidade na comunidade","obj":"A sobrevivência e a relação com a natureza","hab":"Identificar diferentes formas de trabalho existentes na comunidade em que vive, seus significados, suas especificidades e importância."},
 {"code":"EF02HI11","disc":"História","ano":"2º ano","assunto":"O trabalho e a sustentabilidade na comunidade","obj":"A sobrevivência e a relação com a natureza","hab":"Identificar impactos no ambiente causados pelas diferentes formas de trabalho existentes na comunidade em que vive."},
@@ -623,7 +639,7 @@ const DATA = [
 {"code":"EF04HI05","disc":"História","ano":"4º ano","assunto":"Circulação de pessoas, produtos e culturas","obj":"A circulação de pessoas e as transformações no meio natural","hab":"Relacionar os processos de ocupação do campo a intervenções na natureza, avaliando os resultados dessas intervenções."},
 {"code":"EF04HI06","disc":"História","ano":"4º ano","assunto":"Circulação de pessoas, produtos e culturas","obj":"A invenção do comércio e a circulação de produtos","hab":"Identificar as transformações ocorridas nos processos de deslocamento das pessoas e mercadorias, analisando as formas de adaptação ou marginalização."},
 {"code":"EF04HI07","disc":"História","ano":"4º ano","assunto":"Circulação de pessoas, produtos e culturas","obj":"As rotas terrestres, fluviais e marítimas e seus impactos para a formação de cidades e as transformações do meio natural","hab":"Identificar e descrever a importância dos caminhos terrestres, fluviais e marítimos para a dinâmica da vida comercial."},
-{"code":"EF04HI08","disc":"História","ano":"4º ano","assunto":"Circulação de pessoas, produtos e culturas","obj":"O mundo da tecnologia: a integração de pessoas e as exclusões sociais e culturais","hab":"Identificar as transformações ocorridas nos meios de comunicação (cultura oral, imprensa, rádio, televisão, cinema, internet e demais tecnologias digitais de informação e comunicação) e discutir seus significados para os diferentes grupos ou estratos sociais."},
+{"code":"EF04HI08","disc":"História","ano":"4º ano","assunto":"Circulação de pessoas, produtos e culturas","obj":"O mundo da tecnologia: a integração de pessoas e as exclusões sociais e culturais","hab":"Identificar as transformações ocorridas nos meios de comunicação (cultura oral, imprensa, rádio, televisão, cinema, internet e demais technologies digitais de informação e comunicação) e discutir seus significados para os diferentes grupos ou estratos sociais."},
 {"code":"EF04HI09","disc":"História","ano":"4º ano","assunto":"As questões históricas relativas às migrações","obj":"O surgimento da espécie humana no continente africano e sua expansão pelo mundo","hab":"Identificar as motivações dos processos migratórios em diferentes tempos e espaços e avaliar o papel desempenhado pela migração nas regiões de destino."},
 {"code":"EF04HI10","disc":"História","ano":"4º ano","assunto":"As questões históricas relativas às migrações","obj":"Os processos migratórios para a formação do Brasil: os grupos indígenas, a presença portuguesa e a diáspora forçada dos africanos / Os processos migratórios do final do século XIX e início do século XX no Brasil / As dinâmicas internas de migração no Brasil a partir dos anos 1960","hab":"Analisar diferentes fluxos populacionais e suas contribuições para a formação da sociedade brasileira."},
 {"code":"EF04HI11","disc":"História","ano":"4º ano","assunto":"As questões históricas relativas às migrações","obj":"Os processos migratórios para a formação do Brasil...","hab":"Analisar, na sociedade em que vive, a existência ou não de mudanças associadas à migração (interna e internacional)."},
@@ -659,14 +675,14 @@ const DATA = [
 {"code":"EF04ER01","disc":"Ensino Religioso","ano":"4º ano","assunto":"Manifestações religiosas","obj":"Ritos religiosos","hab":"Identificar ritos presentes no cotidiano pessoal, familiar, escolar e comunitário."},
 {"code":"EF04ER02","disc":"Ensino Religioso","ano":"4º ano","assunto":"Manifestações religiosas","obj":"Ritos religiosos","hab":"Identificar ritos e suas funções em diferentes manifestações e tradições religiosas."},
 {"code":"EF04ER03","disc":"Ensino Religioso","ano":"4º ano","assunto":"Manifestações religiosas","obj":"Ritos religiosos","hab":"Caracterizar ritos de iniciação e de passagem em diversos grupos religiosos (nascimento, casamento e morte)."},
-{"code":"EF04ER04","disc":"Ensino Religioso","ano":"4º ano","assunto":"Manifestações religiosas","obj":"Ritos religiosos","hab":"Identificar as diversas formas de expressão da espiritualidade (orações, cultos, gestos, cantos, dança, meditação) nas diferentes tradições religiosas."},
+{"code":"EF04ER04","disc":"Ensino Religioso","ano":"4º ano","assunto":"Manifestações religiosas","obj":"Ritos religiosos","hab":"Identificar as diversas formas de expression da espiritualidade (orações, cultos, gestos, cantos, dança, meditação) nas diferentes tradições religiosas."},
 {"code":"EF04ER05","disc":"Ensino Religioso","ano":"4º ano","assunto":"Manifestações religiosas","obj":"Representações religiosas na arte","hab":"Identificar representações religiosas em diferentes expressões artísticas (pinturas, arquitetura, esculturas, ícones, símbolos, imagens), reconhecendo-as como parte da identidade de diferentes culturas e tradições religiosas."},
 {"code":"EF04ER06","disc":"Ensino Religioso","ano":"4º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ideia(s) de divindade(s)","hab":"Identificar nomes, significados e representações de divindades nos contextos familiar e comunitário."},
 {"code":"EF04ER07","disc":"Ensino Religioso","ano":"4º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ideia(s) de divindade(s)","hab":"Reconhecer e respeitar as ideias de divindades de diferentes manifestações e tradições religiosas."},
 {"code":"EF05ER01","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Narrativas religiosas","hab":"Identificar e respeitar acontecimentos sagrados de diferentes culturas e tradições religiosas como recurso para preservar a memória."},
 {"code":"EF05ER02","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Mitos nas tradições religiosas","hab":"Identificar mitos de criação em diferentes culturas e tradições religiosas."},
 {"code":"EF05ER03","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Mitos nas tradições religiosas","hab":"Reconhecer funções e mensagens religiosas contidas nos mitos de criação (concepções de mundo, natureza, ser humano, divindades, vida e morte)."},
-{"code":"EF05ER04","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ancestralidade e tradição oral","hab":"Reconhecer a importância da tradição oral para preservar memórias e acontecimentos religiosos."},
+{"code":"EF05ER04","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ancestralidade e tradição oral","hab":"Reconhecer a importância da tradição oral para preservar memórias e acontecimentos religiosas."},
 {"code":"EF05ER05","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ancestralidade e tradição oral","hab":"Identificar elementos da tradição oral nas culturas e religiosidades indígenas, afro-brasileiras, ciganas, entre outras."},
 {"code":"EF05ER06","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ancestralidade e tradição oral","hab":"Identificar o papel dos sábios e anciãos na comunicação e preservação da tradição oral."},
 {"code":"EF05ER07","disc":"Ensino Religioso","ano":"5º ano","assunto":"Crenças religiosas e filosofias de vida","obj":"Ancestralidade e tradição oral","hab":"Reconhecer, em textos orais, ensinamentos relacionados a modos de ser e viver."}
@@ -688,7 +704,6 @@ const rcHab = document.getElementById('rcHab');
 let filtered = [];
 let currentIndex = -1;
 
-// Função blindada para evitar erros caso falte alguma propriedade no array
 function norm(s) {
   if (!s) return '';
   return s.toString().toUpperCase().replace(/\s/g, '');
@@ -708,7 +723,6 @@ function updateGhost(val) {
   const nVal = norm(val);
   const match = DATA.find(d => norm(d.code).startsWith(nVal));
   if (match && norm(match.code) !== nVal) {
-    // Busca exata pelo tamanho do que foi digitado (ignorando espaços extras no cálculo do restante)
     const originalCode = match.code;
     const remaining = originalCode.substring(nVal.length);
     ghostText.innerHTML = `<span style="color:transparent">${val}</span><span>${remaining}</span>`;
@@ -851,6 +865,33 @@ clearBtn.addEventListener('click', () => {
   resultArea.style.display = 'none';
   input.focus();
 });
+
+// Função para copiar o conteúdo para a área de transferência
+function copyContent(elementId) {
+  const text = document.getElementById(elementId).innerText;
+  navigator.clipboard.writeText(text);
+}
+
+// Monitora quando a aba/janela ganha o foco para ler a área de transferência
+window.addEventListener('focus', async () => {
+  try {
+    const text = await navigator.clipboard.readText();
+    const clipboardCode = text.trim().toUpperCase();
+    
+    // Expressão regular para validar o padrão exato "AA00AA00" (ex: EF01LP01)
+    const regex = /^[A-Z]{2}\d{2}[A-Z]{2}\d{2}$/;
+    
+    if (regex.test(clipboardCode)) {
+      if (input.value !== clipboardCode) {
+        input.value = clipboardCode;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }
+  } catch (err) {
+    // Ignora erros de permissão ou clipboard vazio
+  }
+});
+
 </script>
 </body>
 </html>
